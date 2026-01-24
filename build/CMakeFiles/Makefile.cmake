@@ -120,7 +120,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/cmake/1509/share/cmake-4.2/Modules/FindDoxygen.cmake"
   "/snap/cmake/1509/share/cmake-4.2/Modules/FindFontconfig.cmake"
   "/snap/cmake/1509/share/cmake-4.2/Modules/FindFreetype.cmake"
-  "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake"
   "/snap/cmake/1509/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
   "/snap/cmake/1509/share/cmake-4.2/Modules/FindPackageMessage.cmake"
   "/snap/cmake/1509/share/cmake-4.2/Modules/FindPkgConfig.cmake"

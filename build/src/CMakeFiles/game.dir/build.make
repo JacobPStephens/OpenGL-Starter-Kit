@@ -114,8 +114,6 @@ src/game: src/CMakeFiles/game.dir/build.make
 src/game: src/CMakeFiles/game.dir/compiler_depend.ts
 src/game: external/glad/libglad.a
 src/game: external/glfw/src/libglfw3.a
-src/game: /usr/lib/x86_64-linux-gnu/libGLX.so
-src/game: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 src/game: /usr/lib/x86_64-linux-gnu/librt.a
 src/game: /usr/lib/x86_64-linux-gnu/libm.so
 src/game: src/CMakeFiles/game.dir/link.txt

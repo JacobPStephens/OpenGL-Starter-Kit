@@ -1024,8 +1024,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1Y6Lpw"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1Y6Lpw"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1034,13 +1034,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1Y6Lpw'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_505ef/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_505ef.dir/build.make CMakeFiles/cmTC_505ef.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1Y6Lpw'
-        Building C object CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83c28/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_83c28.dir/build.make CMakeFiles/cmTC_83c28.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof'
+        Building C object CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1050,8 +1050,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_505ef.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_505ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccxoYvdJ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_83c28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMPZd0x.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -1068,14 +1068,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_505ef.dir/'
-         as -v --64 -o CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o /tmp/ccxoYvdJ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/'
+         as -v --64 -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o /tmp/ccMPZd0x.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_505ef
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_505ef.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_83c28
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c28.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -1088,14 +1088,14 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_505ef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_505ef.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7DE93x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_505ef /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83c28' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83c28.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         collect2 version 13.3.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7DE93x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_505ef /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_505ef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_505ef.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o -o cmTC_505ef
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1Y6Lpw'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83c28' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83c28.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -o cmTC_83c28
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof'
         
       exitCode: 0
   -
@@ -1130,13 +1130,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1Y6Lpw']
+        ignore line: [Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof']
         ignore line: []
-        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_505ef/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_505ef.dir/build.make CMakeFiles/cmTC_505ef.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1Y6Lpw']
-        ignore line: [Building C object CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83c28/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_83c28.dir/build.make CMakeFiles/cmTC_83c28.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof']
+        ignore line: [Building C object CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1146,8 +1146,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_505ef.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_505ef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccxoYvdJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_83c28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMPZd0x.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -1164,14 +1164,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_505ef.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o /tmp/ccxoYvdJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o /tmp/ccMPZd0x.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_505ef]
-        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_505ef.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_83c28]
+        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c28.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -1184,13 +1184,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_505ef' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_505ef.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7DE93x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_505ef /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83c28' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83c28.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc7DE93x.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc63UXbd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1208,7 +1208,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_505ef] ==> ignore
+          arg [cmTC_83c28] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -1221,7 +1221,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1236,7 +1236,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7DE93x.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_505ef /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_505ef.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1274,8 +1274,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m6DZjw"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m6DZjw"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1285,13 +1285,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m6DZjw'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_377de/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_377de.dir/build.make CMakeFiles/cmTC_377de.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m6DZjw'
-        Building CXX object CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06c1e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_06c1e.dir/build.make CMakeFiles/cmTC_06c1e.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g'
+        Building CXX object CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1301,8 +1301,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_377de.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_377de.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cclS2z5L.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06c1e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGomNG2.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -1323,14 +1323,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_377de.dir/'
-         as -v --64 -o CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclS2z5L.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/'
+         as -v --64 -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGomNG2.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_377de
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377de.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_06c1e
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06c1e.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -1343,14 +1343,14 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_377de' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_377de.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccODFn07.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_377de /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06c1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06c1e.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         collect2 version 13.3.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccODFn07.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_377de /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_377de' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_377de.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_377de
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m6DZjw'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06c1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06c1e.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_06c1e
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g'
         
       exitCode: 0
   -
@@ -1391,13 +1391,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m6DZjw']
+        ignore line: [Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g']
         ignore line: []
-        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_377de/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_377de.dir/build.make CMakeFiles/cmTC_377de.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m6DZjw']
-        ignore line: [Building CXX object CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06c1e/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_06c1e.dir/build.make CMakeFiles/cmTC_06c1e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g']
+        ignore line: [Building CXX object CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1407,8 +1407,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_377de.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_377de.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cclS2z5L.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06c1e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGomNG2.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -1429,14 +1429,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_377de.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o /tmp/cclS2z5L.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGomNG2.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_377de]
-        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377de.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_06c1e]
+        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06c1e.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -1449,13 +1449,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_377de' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_377de.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccODFn07.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_377de /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06c1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06c1e.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccODFn07.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc2CQuD9.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1473,7 +1473,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_377de] ==> ignore
+          arg [cmTC_06c1e] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -1486,7 +1486,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1497,7 +1497,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccODFn07.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_377de /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_377de.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1527,1362 +1527,6 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils for Ubuntu) 2.42
   -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:408 (find_path)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "path"
-    variable: "OPENGL_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GL/gl.h"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/x86_64-linux-gnu/"
-      - "/include/"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/include/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-      - "/usr/share/doc/NVIDIA_GLX-1.0/include/"
-      - "/usr/openwin/share/include/"
-      - "/opt/graphics/OpenGL/include/"
-    searched_directories:
-      - "/usr/local/sbin/GL/gl.h"
-      - "/usr/local/bin/GL/gl.h"
-      - "/usr/sbin/GL/gl.h"
-      - "/usr/bin/GL/gl.h"
-      - "/sbin/GL/gl.h"
-      - "/bin/GL/gl.h"
-      - "/usr/games/GL/gl.h"
-      - "/usr/local/games/GL/gl.h"
-      - "/snap/bin/GL/gl.h"
-      - "/usr/local/include/x86_64-linux-gnu/GL/gl.h"
-      - "/usr/local/include/GL/gl.h"
-      - "/usr/local/GL/gl.h"
-      - "/usr/include/x86_64-linux-gnu/GL/gl.h"
-    found: "/usr/include/"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:414 (find_path)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "path"
-    variable: "OPENGL_GLX_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GL/glx.h"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/x86_64-linux-gnu/"
-      - "/include/"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/include/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-    searched_directories:
-      - "/usr/local/sbin/GL/glx.h"
-      - "/usr/local/bin/GL/glx.h"
-      - "/usr/sbin/GL/glx.h"
-      - "/usr/bin/GL/glx.h"
-      - "/sbin/GL/glx.h"
-      - "/bin/GL/glx.h"
-      - "/usr/games/GL/glx.h"
-      - "/usr/local/games/GL/glx.h"
-      - "/snap/bin/GL/glx.h"
-      - "/usr/local/include/x86_64-linux-gnu/GL/glx.h"
-      - "/usr/local/include/GL/glx.h"
-      - "/usr/local/GL/glx.h"
-      - "/usr/include/x86_64-linux-gnu/GL/glx.h"
-    found: "/usr/include/"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:415 (find_path)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "path"
-    variable: "OPENGL_EGL_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "EGL/egl.h"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/x86_64-linux-gnu/"
-      - "/include/"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/include/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-    searched_directories:
-      - "/usr/local/sbin/EGL/egl.h"
-      - "/usr/local/bin/EGL/egl.h"
-      - "/usr/sbin/EGL/egl.h"
-      - "/usr/bin/EGL/egl.h"
-      - "/sbin/EGL/egl.h"
-      - "/bin/EGL/egl.h"
-      - "/usr/games/EGL/egl.h"
-      - "/usr/local/games/EGL/egl.h"
-      - "/snap/bin/EGL/egl.h"
-      - "/usr/local/include/x86_64-linux-gnu/EGL/egl.h"
-      - "/usr/local/include/EGL/egl.h"
-      - "/usr/local/EGL/egl.h"
-      - "/usr/include/x86_64-linux-gnu/EGL/egl.h"
-    found: "/usr/include/"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:416 (find_path)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "path"
-    variable: "OPENGL_GLES2_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GLES2/gl2.h"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/x86_64-linux-gnu/"
-      - "/include/"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/include/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-    searched_directories:
-      - "/usr/local/sbin/GLES2/gl2.h"
-      - "/usr/local/bin/GLES2/gl2.h"
-      - "/usr/sbin/GLES2/gl2.h"
-      - "/usr/bin/GLES2/gl2.h"
-      - "/sbin/GLES2/gl2.h"
-      - "/bin/GLES2/gl2.h"
-      - "/usr/games/GLES2/gl2.h"
-      - "/usr/local/games/GLES2/gl2.h"
-      - "/snap/bin/GLES2/gl2.h"
-      - "/usr/local/include/x86_64-linux-gnu/GLES2/gl2.h"
-      - "/usr/local/include/GLES2/gl2.h"
-      - "/usr/local/GLES2/gl2.h"
-      - "/usr/include/x86_64-linux-gnu/GLES2/gl2.h"
-    found: "/usr/include/"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:417 (find_path)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "path"
-    variable: "OPENGL_GLES3_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GLES3/gl3.h"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/x86_64-linux-gnu/"
-      - "/include/"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/include/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-    searched_directories:
-      - "/usr/local/sbin/GLES3/gl3.h"
-      - "/usr/local/bin/GLES3/gl3.h"
-      - "/usr/sbin/GLES3/gl3.h"
-      - "/usr/bin/GLES3/gl3.h"
-      - "/sbin/GLES3/gl3.h"
-      - "/bin/GLES3/gl3.h"
-      - "/usr/games/GLES3/gl3.h"
-      - "/usr/local/games/GLES3/gl3.h"
-      - "/snap/bin/GLES3/gl3.h"
-      - "/usr/local/include/x86_64-linux-gnu/GLES3/gl3.h"
-      - "/usr/local/include/GLES3/gl3.h"
-      - "/usr/local/GLES3/gl3.h"
-      - "/usr/include/x86_64-linux-gnu/GLES3/gl3.h"
-    found: "/usr/include/"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:418 (find_path)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "path"
-    variable: "OPENGL_xmesa_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GL/xmesa.h"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/x86_64-linux-gnu/"
-      - "/include/"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/include/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-      - "/usr/share/doc/NVIDIA_GLX-1.0/include/"
-      - "/usr/openwin/share/include/"
-      - "/opt/graphics/OpenGL/include/"
-    searched_directories:
-      - "/usr/local/sbin/GL/xmesa.h"
-      - "/usr/local/bin/GL/xmesa.h"
-      - "/usr/sbin/GL/xmesa.h"
-      - "/usr/bin/GL/xmesa.h"
-      - "/sbin/GL/xmesa.h"
-      - "/bin/GL/xmesa.h"
-      - "/usr/games/GL/xmesa.h"
-      - "/usr/local/games/GL/xmesa.h"
-      - "/snap/bin/GL/xmesa.h"
-      - "/usr/local/include/x86_64-linux-gnu/GL/xmesa.h"
-      - "/usr/local/include/GL/xmesa.h"
-      - "/usr/local/GL/xmesa.h"
-      - "/usr/include/x86_64-linux-gnu/GL/xmesa.h"
-      - "/usr/include/GL/xmesa.h"
-      - "/usr/GL/xmesa.h"
-      - "/include/x86_64-linux-gnu/GL/xmesa.h"
-      - "/include/GL/xmesa.h"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/GL/xmesa.h"
-      - "/snap/cmake/1509/include/GL/xmesa.h"
-      - "/snap/cmake/1509/GL/xmesa.h"
-      - "/usr/X11R6/include/x86_64-linux-gnu/GL/xmesa.h"
-      - "/usr/X11R6/include/GL/xmesa.h"
-      - "/usr/X11R6/GL/xmesa.h"
-      - "/usr/pkg/include/x86_64-linux-gnu/GL/xmesa.h"
-      - "/usr/pkg/include/GL/xmesa.h"
-      - "/usr/pkg/GL/xmesa.h"
-      - "/opt/include/x86_64-linux-gnu/GL/xmesa.h"
-      - "/opt/include/GL/xmesa.h"
-      - "/opt/GL/xmesa.h"
-      - "/usr/include/X11/GL/xmesa.h"
-      - "/usr/share/doc/NVIDIA_GLX-1.0/include/GL/xmesa.h"
-      - "/usr/openwin/share/include/GL/xmesa.h"
-      - "/opt/graphics/OpenGL/include/GL/xmesa.h"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:424 (find_path)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "path"
-    variable: "OPENGL_GLU_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GL/glu.h"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/include/x86_64-linux-gnu/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/x86_64-linux-gnu/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/x86_64-linux-gnu/"
-      - "/include/"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/include/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/include/x86_64-linux-gnu/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/x86_64-linux-gnu/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/x86_64-linux-gnu/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/usr/include/X11/"
-    searched_directories:
-      - "/usr/local/sbin/GL/glu.h"
-      - "/usr/local/bin/GL/glu.h"
-      - "/usr/sbin/GL/glu.h"
-      - "/usr/bin/GL/glu.h"
-      - "/sbin/GL/glu.h"
-      - "/bin/GL/glu.h"
-      - "/usr/games/GL/glu.h"
-      - "/usr/local/games/GL/glu.h"
-      - "/snap/bin/GL/glu.h"
-      - "/usr/local/include/x86_64-linux-gnu/GL/glu.h"
-      - "/usr/local/include/GL/glu.h"
-      - "/usr/local/GL/glu.h"
-      - "/usr/include/x86_64-linux-gnu/GL/glu.h"
-      - "/usr/include/GL/glu.h"
-      - "/usr/GL/glu.h"
-      - "/include/x86_64-linux-gnu/GL/glu.h"
-      - "/include/GL/glu.h"
-      - "/snap/cmake/1509/include/x86_64-linux-gnu/GL/glu.h"
-      - "/snap/cmake/1509/include/GL/glu.h"
-      - "/snap/cmake/1509/GL/glu.h"
-      - "/usr/X11R6/include/x86_64-linux-gnu/GL/glu.h"
-      - "/usr/X11R6/include/GL/glu.h"
-      - "/usr/X11R6/GL/glu.h"
-      - "/usr/pkg/include/x86_64-linux-gnu/GL/glu.h"
-      - "/usr/pkg/include/GL/glu.h"
-      - "/usr/pkg/GL/glu.h"
-      - "/opt/include/x86_64-linux-gnu/GL/glu.h"
-      - "/opt/include/GL/glu.h"
-      - "/opt/GL/glu.h"
-      - "/usr/include/X11/GL/glu.h"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:438 (find_library)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "library"
-    variable: "OPENGL_opengl_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "OpenGL"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-    searched_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-    found: "/usr/lib/x86_64-linux-gnu/libOpenGL.so"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:443 (find_library)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "library"
-    variable: "OPENGL_glx_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GLX"
-    candidate_directories:
-      - "/usr/local/sbin/libglvnd/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/libglvnd/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/libglvnd/"
-      - "/usr/sbin/"
-      - "/usr/bin/libglvnd/"
-      - "/usr/bin/"
-      - "/sbin/libglvnd/"
-      - "/sbin/"
-      - "/bin/libglvnd/"
-      - "/bin/"
-      - "/usr/games/libglvnd/"
-      - "/usr/games/"
-      - "/usr/local/games/libglvnd/"
-      - "/usr/local/games/"
-      - "/snap/bin/libglvnd/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/libglvnd/"
-      - "/usr/local/lib/"
-      - "/usr/local/libglvnd/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/libglvnd/"
-      - "/usr/lib/"
-      - "/usr/libglvnd/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/libglvnd/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/libglvnd/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/libglvnd/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/libglvnd/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/libglvnd/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/libglvnd/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/libglvnd/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/libglvnd/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/libglvnd/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/libglvnd/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/libglvnd/"
-      - "/opt/lib/"
-      - "/opt/libglvnd/"
-      - "/opt/"
-      - "/usr/lib/X11/libglvnd/"
-      - "/usr/lib/X11/"
-    searched_directories:
-      - "/usr/local/sbin/libglvnd/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/libglvnd/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/libglvnd/"
-      - "/usr/sbin/"
-      - "/usr/bin/libglvnd/"
-      - "/usr/bin/"
-      - "/sbin/libglvnd/"
-      - "/sbin/"
-      - "/bin/libglvnd/"
-      - "/bin/"
-      - "/usr/games/libglvnd/"
-      - "/usr/games/"
-      - "/usr/local/games/libglvnd/"
-      - "/usr/local/games/"
-      - "/snap/bin/libglvnd/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/libglvnd/"
-      - "/usr/local/lib/"
-      - "/usr/local/libglvnd/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
-    found: "/usr/lib/x86_64-linux-gnu/libGLX.so"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:449 (find_library)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "library"
-    variable: "OPENGL_egl_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "EGL"
-    candidate_directories:
-      - "/usr/local/sbin/libglvnd/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/libglvnd/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/libglvnd/"
-      - "/usr/sbin/"
-      - "/usr/bin/libglvnd/"
-      - "/usr/bin/"
-      - "/sbin/libglvnd/"
-      - "/sbin/"
-      - "/bin/libglvnd/"
-      - "/bin/"
-      - "/usr/games/libglvnd/"
-      - "/usr/games/"
-      - "/usr/local/games/libglvnd/"
-      - "/usr/local/games/"
-      - "/snap/bin/libglvnd/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/libglvnd/"
-      - "/usr/local/lib/"
-      - "/usr/local/libglvnd/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/libglvnd/"
-      - "/usr/lib/"
-      - "/usr/libglvnd/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/libglvnd/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/libglvnd/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/libglvnd/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/libglvnd/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/libglvnd/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/libglvnd/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/libglvnd/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/libglvnd/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/libglvnd/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/libglvnd/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/libglvnd/"
-      - "/opt/lib/"
-      - "/opt/libglvnd/"
-      - "/opt/"
-      - "/usr/lib/X11/libglvnd/"
-      - "/usr/lib/X11/"
-    searched_directories:
-      - "/usr/local/sbin/libglvnd/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/libglvnd/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/libglvnd/"
-      - "/usr/sbin/"
-      - "/usr/bin/libglvnd/"
-      - "/usr/bin/"
-      - "/sbin/libglvnd/"
-      - "/sbin/"
-      - "/bin/libglvnd/"
-      - "/bin/"
-      - "/usr/games/libglvnd/"
-      - "/usr/games/"
-      - "/usr/local/games/libglvnd/"
-      - "/usr/local/games/"
-      - "/snap/bin/libglvnd/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/libglvnd/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/libglvnd/"
-      - "/usr/local/lib/"
-      - "/usr/local/libglvnd/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/libglvnd/"
-    found: "/usr/lib/x86_64-linux-gnu/libEGL.so"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:455 (find_library)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "library"
-    variable: "OPENGL_gles2_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GLESv2"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-    searched_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-    found: "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:460 (find_library)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "library"
-    variable: "OPENGL_gles3_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GLESv3"
-      - "GLESv2"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-    searched_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-    found: "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/snap/cmake/1509/share/cmake-4.2/Modules/FindOpenGL.cmake:466 (find_library)"
-      - "CMakeLists.txt:4 (find_package)"
-    mode: "library"
-    variable: "OPENGL_glu_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "GLU"
-      - "MesaGLU"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-      - "/opt/graphics/OpenGL/lib/"
-      - "/usr/openwin/lib/"
-      - "/usr/shlib/"
-    searched_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-      - "/opt/graphics/OpenGL/lib/"
-      - "/usr/openwin/lib/"
-      - "/usr/shlib/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/games/"
-      - "/usr/local/games/"
-      - "/snap/bin/"
-      - "/usr/local/lib/x86_64-linux-gnu/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/x86_64-linux-gnu/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/lib/x86_64-linux-gnu/"
-      - "/lib/"
-      - "/snap/cmake/1509/lib/x86_64-linux-gnu/"
-      - "/snap/cmake/1509/lib/"
-      - "/snap/cmake/1509/"
-      - "/usr/X11R6/lib/x86_64-linux-gnu/"
-      - "/usr/X11R6/lib/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/lib/x86_64-linux-gnu/"
-      - "/usr/pkg/lib/"
-      - "/usr/pkg/"
-      - "/opt/lib/x86_64-linux-gnu/"
-      - "/opt/lib/"
-      - "/opt/"
-      - "/usr/lib/X11/"
-      - "/opt/graphics/OpenGL/lib/"
-      - "/usr/openwin/lib/"
-      - "/usr/shlib/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/games"
-        - "/usr/local/games"
-        - "/snap/bin"
-        - "/snap/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/snap/cmake/1509"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-  -
     kind: "try_compile-v1"
     backtrace:
       - "/snap/cmake/1509/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
@@ -2893,8 +1537,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-hWLR3u"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-hWLR3u"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2904,17 +1548,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-hWLR3u'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed6a2/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ed6a2.dir/build.make CMakeFiles/cmTC_ed6a2.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-hWLR3u'
-        Building C object CMakeFiles/cmTC_ed6a2.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ed6a2.dir/src.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-hWLR3u/src.c
-        Linking C executable cmTC_ed6a2
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed6a2.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_ed6a2.dir/src.c.o -o cmTC_ed6a2
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-hWLR3u'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ccb4c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ccb4c.dir/build.make CMakeFiles/cmTC_ccb4c.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh'
+        Building C object CMakeFiles/cmTC_ccb4c.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ccb4c.dir/src.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh/src.c
+        Linking C executable cmTC_ccb4c
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccb4c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ccb4c.dir/src.c.o -o cmTC_ccb4c
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh'
         
       exitCode: 0
   -
@@ -2925,8 +1569,8 @@ events:
     checks:
       - "Looking for memfd_create"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-FLQMjw"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-FLQMjw"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2936,17 +1580,17 @@ events:
       variable: "HAVE_MEMFD_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-FLQMjw'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92869/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_92869.dir/build.make CMakeFiles/cmTC_92869.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-FLQMjw'
-        Building C object CMakeFiles/cmTC_92869.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memfd_create -o CMakeFiles/cmTC_92869.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-FLQMjw/CheckFunctionExists.c
-        Linking C executable cmTC_92869
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92869.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memfd_create CMakeFiles/cmTC_92869.dir/CheckFunctionExists.c.o -o cmTC_92869
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-FLQMjw'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5ff9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a5ff9.dir/build.make CMakeFiles/cmTC_a5ff9.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope'
+        Building C object CMakeFiles/cmTC_a5ff9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memfd_create -o CMakeFiles/cmTC_a5ff9.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope/CheckFunctionExists.c
+        Linking C executable cmTC_a5ff9
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5ff9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memfd_create CMakeFiles/cmTC_a5ff9.dir/CheckFunctionExists.c.o -o cmTC_a5ff9
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope'
         
       exitCode: 0
   -
@@ -18951,8 +17595,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-58ythw"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-58ythw"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -18962,17 +17606,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-58ythw'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b55b7/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b55b7.dir/build.make CMakeFiles/cmTC_b55b7.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-58ythw'
-        Building C object CMakeFiles/cmTC_b55b7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_b55b7.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-58ythw/CheckFunctionExists.c
-        Linking C executable cmTC_b55b7
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b55b7.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_b55b7.dir/CheckFunctionExists.c.o -o cmTC_b55b7  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-58ythw'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7f0b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f7f0b.dir/build.make CMakeFiles/cmTC_f7f0b.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf'
+        Building C object CMakeFiles/cmTC_f7f0b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_f7f0b.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf/CheckFunctionExists.c
+        Linking C executable cmTC_f7f0b
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f0b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_f7f0b.dir/CheckFunctionExists.c.o -o cmTC_f7f0b  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf'
         
       exitCode: 0
   -
@@ -18984,8 +17628,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1fb3zw"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1fb3zw"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -18995,17 +17639,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1fb3zw'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6413/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c6413.dir/build.make CMakeFiles/cmTC_c6413.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1fb3zw'
-        Building C object CMakeFiles/cmTC_c6413.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_c6413.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1fb3zw/CheckFunctionExists.c
-        Linking C executable cmTC_c6413
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6413.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_c6413.dir/CheckFunctionExists.c.o -o cmTC_c6413
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-1fb3zw'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de053/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_de053.dir/build.make CMakeFiles/cmTC_de053.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg'
+        Building C object CMakeFiles/cmTC_de053.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_de053.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg/CheckFunctionExists.c
+        Linking C executable cmTC_de053
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de053.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_de053.dir/CheckFunctionExists.c.o -o cmTC_de053
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg'
         
       exitCode: 0
   -
@@ -19017,8 +17661,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-2ckmZu"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-2ckmZu"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -19028,17 +17672,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-2ckmZu'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b372f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b372f.dir/build.make CMakeFiles/cmTC_b372f.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-2ckmZu'
-        Building C object CMakeFiles/cmTC_b372f.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_b372f.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-2ckmZu/CheckFunctionExists.c
-        Linking C executable cmTC_b372f
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b372f.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_b372f.dir/CheckFunctionExists.c.o -o cmTC_b372f
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-2ckmZu'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83f8b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_83f8b.dir/build.make CMakeFiles/cmTC_83f8b.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg'
+        Building C object CMakeFiles/cmTC_83f8b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_83f8b.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg/CheckFunctionExists.c
+        Linking C executable cmTC_83f8b
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83f8b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_83f8b.dir/CheckFunctionExists.c.o -o cmTC_83f8b
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg'
         
       exitCode: 0
   -
@@ -19050,8 +17694,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-RSziit"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-RSziit"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -19061,17 +17705,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-RSziit'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_27ce5/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_27ce5.dir/build.make CMakeFiles/cmTC_27ce5.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-RSziit'
-        Building C object CMakeFiles/cmTC_27ce5.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_27ce5.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-RSziit/CheckFunctionExists.c
-        Linking C executable cmTC_27ce5
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27ce5.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_27ce5.dir/CheckFunctionExists.c.o -o cmTC_27ce5
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-RSziit'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9290b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9290b.dir/build.make CMakeFiles/cmTC_9290b.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc'
+        Building C object CMakeFiles/cmTC_9290b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_9290b.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc/CheckFunctionExists.c
+        Linking C executable cmTC_9290b
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9290b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_9290b.dir/CheckFunctionExists.c.o -o cmTC_9290b
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc'
         
       exitCode: 0
   -
@@ -19083,8 +17727,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-JRzdVt"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-JRzdVt"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -19094,17 +17738,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-JRzdVt'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_69a27/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_69a27.dir/build.make CMakeFiles/cmTC_69a27.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-JRzdVt'
-        Building C object CMakeFiles/cmTC_69a27.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_69a27.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-JRzdVt/CheckFunctionExists.c
-        Linking C executable cmTC_69a27
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a27.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_69a27.dir/CheckFunctionExists.c.o -o cmTC_69a27
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-JRzdVt'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9990/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c9990.dir/build.make CMakeFiles/cmTC_c9990.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch'
+        Building C object CMakeFiles/cmTC_c9990.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_c9990.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch/CheckFunctionExists.c
+        Linking C executable cmTC_c9990
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9990.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_c9990.dir/CheckFunctionExists.c.o -o cmTC_c9990
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch'
         
       exitCode: 0
   -
@@ -19116,8 +17760,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gTCVev"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gTCVev"
+      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf"
+      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -19127,17 +17771,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gTCVev'
+        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_867e6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_867e6.dir/build.make CMakeFiles/cmTC_867e6.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gTCVev'
-        Building C object CMakeFiles/cmTC_867e6.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_867e6.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gTCVev/CheckFunctionExists.c
-        Linking C executable cmTC_867e6
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_867e6.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_867e6.dir/CheckFunctionExists.c.o -o cmTC_867e6  -lICE
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gTCVev'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9239/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b9239.dir/build.make CMakeFiles/cmTC_b9239.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf'
+        Building C object CMakeFiles/cmTC_b9239.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_b9239.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf/CheckFunctionExists.c
+        Linking C executable cmTC_b9239
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9239.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b9239.dir/CheckFunctionExists.c.o -o cmTC_b9239  -lICE
+        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf'
         
       exitCode: 0
   -

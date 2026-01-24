@@ -7,7 +7,6 @@ target_sources(game
 
 target_link_libraries(game
     PRIVATE
-        OpenGL::GL
         glad
         glm::glm
         glfw

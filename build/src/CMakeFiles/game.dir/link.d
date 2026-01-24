@@ -6,8 +6,6 @@ game: \
   CMakeFiles/game.dir/__/external/glad/src/glad.c.o \
   ../external/glad/libglad.a \
   ../external/glfw/src/libglfw3.a \
-  /usr/lib/x86_64-linux-gnu/libGLX.so \
-  /usr/lib/x86_64-linux-gnu/libOpenGL.so \
   /usr/lib/x86_64-linux-gnu/librt.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libdl.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so \
@@ -52,10 +50,6 @@ CMakeFiles/game.dir/__/external/glad/src/glad.c.o:
 ../external/glad/libglad.a:
 
 ../external/glfw/src/libglfw3.a:
-
-/usr/lib/x86_64-linux-gnu/libGLX.so:
-
-/usr/lib/x86_64-linux-gnu/libOpenGL.so:
 
 /usr/lib/x86_64-linux-gnu/librt.a:
 

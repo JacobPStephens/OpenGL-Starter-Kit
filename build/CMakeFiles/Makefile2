@@ -342,8 +342,8 @@ external/glfw/src/CMakeFiles/update_mappings.dir/clean:
 # Target rules for target src/CMakeFiles/game.dir
 
 # All Build rule for target.
-src/CMakeFiles/game.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 src/CMakeFiles/game.dir/all: external/glad/CMakeFiles/glad.dir/all
+src/CMakeFiles/game.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jacob/source/ubiquity/glmTest/build/CMakeFiles --progress-num=1,2,3 "Built target game"
