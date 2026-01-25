@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jacob/source/pacman2/external/glad/include -I/home/jacob/source/pacman2/external/glm -I/home/jacob/source/pacman2/external/glfw/include -I/home/jacob/source/pacman2/external/stb
+C_INCLUDES = -I/home/jacob/source/ubiquity/glmTest/external/glad/include -I/home/jacob/source/ubiquity/glmTest/external/glm -I/home/jacob/source/ubiquity/glmTest/external/glfw/include
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jacob/source/pacman2/external/glad/include -I/home/jacob/source/pacman2/external/glm -I/home/jacob/source/pacman2/external/glfw/include -I/home/jacob/source/pacman2/external/stb
+CXX_INCLUDES = -I/home/jacob/source/ubiquity/glmTest/external/glad/include -I/home/jacob/source/ubiquity/glmTest/external/glm -I/home/jacob/source/ubiquity/glmTest/external/glfw/include
 
 CXX_FLAGS = 
 

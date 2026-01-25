@@ -2,16 +2,7 @@ add_executable(game)
 
 target_sources(game
     PRIVATE
-        Eyes.cpp
-        Game.cpp
-        GameObject.cpp
-        Ghost.cpp
-        main.cpp
-        PlayerObject.cpp
-        ResourceManager.cpp
-        Shader.cpp
-        SpriteRenderer.cpp
-        Texture2D.cpp
+        ./main.cpp
 )
 
 target_link_libraries(game
@@ -19,5 +10,4 @@ target_link_libraries(game
         glad
         glm::glm
         glfw
-        stb
 )

@@ -1,14 +1,13 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/jacob/source/pacman2/build/cmake_install.cmake",
-		"/home/jacob/source/pacman2/build/external/glad/cmake_install.cmake",
-		"/home/jacob/source/pacman2/build/external/glm/cmake_install.cmake",
-		"/home/jacob/source/pacman2/build/external/glfw/cmake_install.cmake",
-		"/home/jacob/source/pacman2/build/external/glfw/src/cmake_install.cmake",
-		"/home/jacob/source/pacman2/build/external/glfw/docs/cmake_install.cmake",
-		"/home/jacob/source/pacman2/build/external/stb/cmake_install.cmake",
-		"/home/jacob/source/pacman2/build/src/cmake_install.cmake"
+		"/home/jacob/source/ubiquity/glmTest/build/cmake_install.cmake",
+		"/home/jacob/source/ubiquity/glmTest/build/external/glad/cmake_install.cmake",
+		"/home/jacob/source/ubiquity/glmTest/build/external/glm/cmake_install.cmake",
+		"/home/jacob/source/ubiquity/glmTest/build/external/glfw/cmake_install.cmake",
+		"/home/jacob/source/ubiquity/glmTest/build/external/glfw/src/cmake_install.cmake",
+		"/home/jacob/source/ubiquity/glmTest/build/external/glfw/docs/cmake_install.cmake",
+		"/home/jacob/source/ubiquity/glmTest/build/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

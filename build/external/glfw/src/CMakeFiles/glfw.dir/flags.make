@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
 
-C_INCLUDES = -I/home/jacob/source/pacman2/external/glfw/include -I/home/jacob/source/pacman2/external/glfw/src -I/home/jacob/source/pacman2/build/external/glfw/src
+C_INCLUDES = -I/home/jacob/source/ubiquity/glmTest/external/glfw/include -I/home/jacob/source/ubiquity/glmTest/external/glfw/src -I/home/jacob/source/ubiquity/glmTest/build/external/glfw/src
 
 C_FLAGS = -std=c99 -fPIC -Wall
 

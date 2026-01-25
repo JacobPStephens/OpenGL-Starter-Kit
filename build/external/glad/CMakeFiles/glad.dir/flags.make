@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jacob/source/pacman2/external/glad/include
+C_INCLUDES = -I/home/jacob/source/ubiquity/glmTest/external/glad/include
 
 C_FLAGS = 
 
