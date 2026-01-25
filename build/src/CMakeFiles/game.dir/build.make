@@ -53,10 +53,10 @@ RM = /snap/cmake/1509/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacob/source/ubiquity/glmTest
+CMAKE_SOURCE_DIR = /home/jacob/source/pacman2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacob/source/ubiquity/glmTest/build
+CMAKE_BINARY_DIR = /home/jacob/source/pacman2/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/game.dir/depend.make
@@ -72,43 +72,187 @@ include src/CMakeFiles/game.dir/flags.make
 src/CMakeFiles/game.dir/codegen:
 .PHONY : src/CMakeFiles/game.dir/codegen
 
+src/CMakeFiles/game.dir/Eyes.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/Eyes.cpp.o: /home/jacob/source/pacman2/src/Eyes.cpp
+src/CMakeFiles/game.dir/Eyes.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/game.dir/Eyes.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/Eyes.cpp.o -MF CMakeFiles/game.dir/Eyes.cpp.o.d -o CMakeFiles/game.dir/Eyes.cpp.o -c /home/jacob/source/pacman2/src/Eyes.cpp
+
+src/CMakeFiles/game.dir/Eyes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/Eyes.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/Eyes.cpp > CMakeFiles/game.dir/Eyes.cpp.i
+
+src/CMakeFiles/game.dir/Eyes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Eyes.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/Eyes.cpp -o CMakeFiles/game.dir/Eyes.cpp.s
+
+src/CMakeFiles/game.dir/Game.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/Game.cpp.o: /home/jacob/source/pacman2/src/Game.cpp
+src/CMakeFiles/game.dir/Game.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/game.dir/Game.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/Game.cpp.o -MF CMakeFiles/game.dir/Game.cpp.o.d -o CMakeFiles/game.dir/Game.cpp.o -c /home/jacob/source/pacman2/src/Game.cpp
+
+src/CMakeFiles/game.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/Game.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/Game.cpp > CMakeFiles/game.dir/Game.cpp.i
+
+src/CMakeFiles/game.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Game.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/Game.cpp -o CMakeFiles/game.dir/Game.cpp.s
+
+src/CMakeFiles/game.dir/GameObject.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/GameObject.cpp.o: /home/jacob/source/pacman2/src/GameObject.cpp
+src/CMakeFiles/game.dir/GameObject.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/game.dir/GameObject.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/GameObject.cpp.o -MF CMakeFiles/game.dir/GameObject.cpp.o.d -o CMakeFiles/game.dir/GameObject.cpp.o -c /home/jacob/source/pacman2/src/GameObject.cpp
+
+src/CMakeFiles/game.dir/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/GameObject.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/GameObject.cpp > CMakeFiles/game.dir/GameObject.cpp.i
+
+src/CMakeFiles/game.dir/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/GameObject.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/GameObject.cpp -o CMakeFiles/game.dir/GameObject.cpp.s
+
+src/CMakeFiles/game.dir/Ghost.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/Ghost.cpp.o: /home/jacob/source/pacman2/src/Ghost.cpp
+src/CMakeFiles/game.dir/Ghost.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/game.dir/Ghost.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/Ghost.cpp.o -MF CMakeFiles/game.dir/Ghost.cpp.o.d -o CMakeFiles/game.dir/Ghost.cpp.o -c /home/jacob/source/pacman2/src/Ghost.cpp
+
+src/CMakeFiles/game.dir/Ghost.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/Ghost.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/Ghost.cpp > CMakeFiles/game.dir/Ghost.cpp.i
+
+src/CMakeFiles/game.dir/Ghost.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Ghost.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/Ghost.cpp -o CMakeFiles/game.dir/Ghost.cpp.s
+
 src/CMakeFiles/game.dir/main.cpp.o: src/CMakeFiles/game.dir/flags.make
-src/CMakeFiles/game.dir/main.cpp.o: /home/jacob/source/ubiquity/glmTest/src/main.cpp
+src/CMakeFiles/game.dir/main.cpp.o: /home/jacob/source/pacman2/src/main.cpp
 src/CMakeFiles/game.dir/main.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/ubiquity/glmTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/game.dir/main.cpp.o"
-	cd /home/jacob/source/ubiquity/glmTest/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/main.cpp.o -MF CMakeFiles/game.dir/main.cpp.o.d -o CMakeFiles/game.dir/main.cpp.o -c /home/jacob/source/ubiquity/glmTest/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/game.dir/main.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/main.cpp.o -MF CMakeFiles/game.dir/main.cpp.o.d -o CMakeFiles/game.dir/main.cpp.o -c /home/jacob/source/pacman2/src/main.cpp
 
 src/CMakeFiles/game.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/main.cpp.i"
-	cd /home/jacob/source/ubiquity/glmTest/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/ubiquity/glmTest/src/main.cpp > CMakeFiles/game.dir/main.cpp.i
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/main.cpp > CMakeFiles/game.dir/main.cpp.i
 
 src/CMakeFiles/game.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/main.cpp.s"
-	cd /home/jacob/source/ubiquity/glmTest/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/ubiquity/glmTest/src/main.cpp -o CMakeFiles/game.dir/main.cpp.s
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/main.cpp -o CMakeFiles/game.dir/main.cpp.s
+
+src/CMakeFiles/game.dir/PlayerObject.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/PlayerObject.cpp.o: /home/jacob/source/pacman2/src/PlayerObject.cpp
+src/CMakeFiles/game.dir/PlayerObject.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/game.dir/PlayerObject.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/PlayerObject.cpp.o -MF CMakeFiles/game.dir/PlayerObject.cpp.o.d -o CMakeFiles/game.dir/PlayerObject.cpp.o -c /home/jacob/source/pacman2/src/PlayerObject.cpp
+
+src/CMakeFiles/game.dir/PlayerObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/PlayerObject.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/PlayerObject.cpp > CMakeFiles/game.dir/PlayerObject.cpp.i
+
+src/CMakeFiles/game.dir/PlayerObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/PlayerObject.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/PlayerObject.cpp -o CMakeFiles/game.dir/PlayerObject.cpp.s
+
+src/CMakeFiles/game.dir/ResourceManager.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/ResourceManager.cpp.o: /home/jacob/source/pacman2/src/ResourceManager.cpp
+src/CMakeFiles/game.dir/ResourceManager.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/game.dir/ResourceManager.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/ResourceManager.cpp.o -MF CMakeFiles/game.dir/ResourceManager.cpp.o.d -o CMakeFiles/game.dir/ResourceManager.cpp.o -c /home/jacob/source/pacman2/src/ResourceManager.cpp
+
+src/CMakeFiles/game.dir/ResourceManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/ResourceManager.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/ResourceManager.cpp > CMakeFiles/game.dir/ResourceManager.cpp.i
+
+src/CMakeFiles/game.dir/ResourceManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/ResourceManager.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/ResourceManager.cpp -o CMakeFiles/game.dir/ResourceManager.cpp.s
+
+src/CMakeFiles/game.dir/Shader.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/Shader.cpp.o: /home/jacob/source/pacman2/src/Shader.cpp
+src/CMakeFiles/game.dir/Shader.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/game.dir/Shader.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/Shader.cpp.o -MF CMakeFiles/game.dir/Shader.cpp.o.d -o CMakeFiles/game.dir/Shader.cpp.o -c /home/jacob/source/pacman2/src/Shader.cpp
+
+src/CMakeFiles/game.dir/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/Shader.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/Shader.cpp > CMakeFiles/game.dir/Shader.cpp.i
+
+src/CMakeFiles/game.dir/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Shader.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/Shader.cpp -o CMakeFiles/game.dir/Shader.cpp.s
+
+src/CMakeFiles/game.dir/SpriteRenderer.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/SpriteRenderer.cpp.o: /home/jacob/source/pacman2/src/SpriteRenderer.cpp
+src/CMakeFiles/game.dir/SpriteRenderer.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/game.dir/SpriteRenderer.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/SpriteRenderer.cpp.o -MF CMakeFiles/game.dir/SpriteRenderer.cpp.o.d -o CMakeFiles/game.dir/SpriteRenderer.cpp.o -c /home/jacob/source/pacman2/src/SpriteRenderer.cpp
+
+src/CMakeFiles/game.dir/SpriteRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/SpriteRenderer.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/SpriteRenderer.cpp > CMakeFiles/game.dir/SpriteRenderer.cpp.i
+
+src/CMakeFiles/game.dir/SpriteRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/SpriteRenderer.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/SpriteRenderer.cpp -o CMakeFiles/game.dir/SpriteRenderer.cpp.s
+
+src/CMakeFiles/game.dir/Texture2D.cpp.o: src/CMakeFiles/game.dir/flags.make
+src/CMakeFiles/game.dir/Texture2D.cpp.o: /home/jacob/source/pacman2/src/Texture2D.cpp
+src/CMakeFiles/game.dir/Texture2D.cpp.o: src/CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/game.dir/Texture2D.cpp.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/game.dir/Texture2D.cpp.o -MF CMakeFiles/game.dir/Texture2D.cpp.o.d -o CMakeFiles/game.dir/Texture2D.cpp.o -c /home/jacob/source/pacman2/src/Texture2D.cpp
+
+src/CMakeFiles/game.dir/Texture2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/Texture2D.cpp.i"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/source/pacman2/src/Texture2D.cpp > CMakeFiles/game.dir/Texture2D.cpp.i
+
+src/CMakeFiles/game.dir/Texture2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/Texture2D.cpp.s"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/source/pacman2/src/Texture2D.cpp -o CMakeFiles/game.dir/Texture2D.cpp.s
 
 src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o: src/CMakeFiles/game.dir/flags.make
-src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o: /home/jacob/source/ubiquity/glmTest/external/glad/src/glad.c
+src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o: /home/jacob/source/pacman2/external/glad/src/glad.c
 src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o: src/CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/ubiquity/glmTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o"
-	cd /home/jacob/source/ubiquity/glmTest/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o -MF CMakeFiles/game.dir/__/external/glad/src/glad.c.o.d -o CMakeFiles/game.dir/__/external/glad/src/glad.c.o -c /home/jacob/source/ubiquity/glmTest/external/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o"
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o -MF CMakeFiles/game.dir/__/external/glad/src/glad.c.o.d -o CMakeFiles/game.dir/__/external/glad/src/glad.c.o -c /home/jacob/source/pacman2/external/glad/src/glad.c
 
 src/CMakeFiles/game.dir/__/external/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/game.dir/__/external/glad/src/glad.c.i"
-	cd /home/jacob/source/ubiquity/glmTest/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jacob/source/ubiquity/glmTest/external/glad/src/glad.c > CMakeFiles/game.dir/__/external/glad/src/glad.c.i
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jacob/source/pacman2/external/glad/src/glad.c > CMakeFiles/game.dir/__/external/glad/src/glad.c.i
 
 src/CMakeFiles/game.dir/__/external/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/game.dir/__/external/glad/src/glad.c.s"
-	cd /home/jacob/source/ubiquity/glmTest/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jacob/source/ubiquity/glmTest/external/glad/src/glad.c -o CMakeFiles/game.dir/__/external/glad/src/glad.c.s
+	cd /home/jacob/source/pacman2/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jacob/source/pacman2/external/glad/src/glad.c -o CMakeFiles/game.dir/__/external/glad/src/glad.c.s
 
 # Object files for target game
 game_OBJECTS = \
+"CMakeFiles/game.dir/Eyes.cpp.o" \
+"CMakeFiles/game.dir/Game.cpp.o" \
+"CMakeFiles/game.dir/GameObject.cpp.o" \
+"CMakeFiles/game.dir/Ghost.cpp.o" \
 "CMakeFiles/game.dir/main.cpp.o" \
+"CMakeFiles/game.dir/PlayerObject.cpp.o" \
+"CMakeFiles/game.dir/ResourceManager.cpp.o" \
+"CMakeFiles/game.dir/Shader.cpp.o" \
+"CMakeFiles/game.dir/SpriteRenderer.cpp.o" \
+"CMakeFiles/game.dir/Texture2D.cpp.o" \
 "CMakeFiles/game.dir/__/external/glad/src/glad.c.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
+src/game: src/CMakeFiles/game.dir/Eyes.cpp.o
+src/game: src/CMakeFiles/game.dir/Game.cpp.o
+src/game: src/CMakeFiles/game.dir/GameObject.cpp.o
+src/game: src/CMakeFiles/game.dir/Ghost.cpp.o
 src/game: src/CMakeFiles/game.dir/main.cpp.o
+src/game: src/CMakeFiles/game.dir/PlayerObject.cpp.o
+src/game: src/CMakeFiles/game.dir/ResourceManager.cpp.o
+src/game: src/CMakeFiles/game.dir/Shader.cpp.o
+src/game: src/CMakeFiles/game.dir/SpriteRenderer.cpp.o
+src/game: src/CMakeFiles/game.dir/Texture2D.cpp.o
 src/game: src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o
 src/game: src/CMakeFiles/game.dir/build.make
 src/game: src/CMakeFiles/game.dir/compiler_depend.ts
@@ -117,18 +261,18 @@ src/game: external/glfw/src/libglfw3.a
 src/game: /usr/lib/x86_64-linux-gnu/librt.a
 src/game: /usr/lib/x86_64-linux-gnu/libm.so
 src/game: src/CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jacob/source/ubiquity/glmTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable game"
-	cd /home/jacob/source/ubiquity/glmTest/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable game"
+	cd /home/jacob/source/pacman2/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/game.dir/build: src/game
 .PHONY : src/CMakeFiles/game.dir/build
 
 src/CMakeFiles/game.dir/clean:
-	cd /home/jacob/source/ubiquity/glmTest/build/src && $(CMAKE_COMMAND) -P CMakeFiles/game.dir/cmake_clean.cmake
+	cd /home/jacob/source/pacman2/build/src && $(CMAKE_COMMAND) -P CMakeFiles/game.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/game.dir/clean
 
 src/CMakeFiles/game.dir/depend:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/source/ubiquity/glmTest /home/jacob/source/ubiquity/glmTest/src /home/jacob/source/ubiquity/glmTest/build /home/jacob/source/ubiquity/glmTest/build/src /home/jacob/source/ubiquity/glmTest/build/src/CMakeFiles/game.dir/DependInfo.cmake "--color=$(COLOR)" game
+	cd /home/jacob/source/pacman2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/source/pacman2 /home/jacob/source/pacman2/src /home/jacob/source/pacman2/build /home/jacob/source/pacman2/build/src /home/jacob/source/pacman2/build/src/CMakeFiles/game.dir/DependInfo.cmake "--color=$(COLOR)" game
 .PHONY : src/CMakeFiles/game.dir/depend
 

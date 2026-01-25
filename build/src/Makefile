@@ -57,10 +57,10 @@ RM = /snap/cmake/1509/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacob/source/ubiquity/glmTest
+CMAKE_SOURCE_DIR = /home/jacob/source/pacman2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacob/source/ubiquity/glmTest/build
+CMAKE_BINARY_DIR = /home/jacob/source/pacman2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jacob/source/ubiquity/glmTest/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/source/ubiquity/glmTest/build/CMakeFiles /home/jacob/source/ubiquity/glmTest/build/src//CMakeFiles/progress.marks
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/source/ubiquity/glmTest/build/CMakeFiles 0
+	cd /home/jacob/source/pacman2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/source/pacman2/build/CMakeFiles /home/jacob/source/pacman2/build/src//CMakeFiles/progress.marks
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/source/pacman2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jacob/source/pacman2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/game.dir/rule:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/game.dir/rule
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/game.dir/rule
 .PHONY : src/CMakeFiles/game.dir/rule
 
 # Convenience name for target.
@@ -172,15 +172,231 @@ game: src/CMakeFiles/game.dir/rule
 
 # fast build rule for target.
 game/fast:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/build
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/build
 .PHONY : game/fast
+
+Eyes.o: Eyes.cpp.o
+.PHONY : Eyes.o
+
+# target to build an object file
+Eyes.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Eyes.cpp.o
+.PHONY : Eyes.cpp.o
+
+Eyes.i: Eyes.cpp.i
+.PHONY : Eyes.i
+
+# target to preprocess a source file
+Eyes.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Eyes.cpp.i
+.PHONY : Eyes.cpp.i
+
+Eyes.s: Eyes.cpp.s
+.PHONY : Eyes.s
+
+# target to generate assembly for a file
+Eyes.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Eyes.cpp.s
+.PHONY : Eyes.cpp.s
+
+Game.o: Game.cpp.o
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+GameObject.o: GameObject.cpp.o
+.PHONY : GameObject.o
+
+# target to build an object file
+GameObject.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/GameObject.cpp.o
+.PHONY : GameObject.cpp.o
+
+GameObject.i: GameObject.cpp.i
+.PHONY : GameObject.i
+
+# target to preprocess a source file
+GameObject.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/GameObject.cpp.i
+.PHONY : GameObject.cpp.i
+
+GameObject.s: GameObject.cpp.s
+.PHONY : GameObject.s
+
+# target to generate assembly for a file
+GameObject.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/GameObject.cpp.s
+.PHONY : GameObject.cpp.s
+
+Ghost.o: Ghost.cpp.o
+.PHONY : Ghost.o
+
+# target to build an object file
+Ghost.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Ghost.cpp.o
+.PHONY : Ghost.cpp.o
+
+Ghost.i: Ghost.cpp.i
+.PHONY : Ghost.i
+
+# target to preprocess a source file
+Ghost.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Ghost.cpp.i
+.PHONY : Ghost.cpp.i
+
+Ghost.s: Ghost.cpp.s
+.PHONY : Ghost.s
+
+# target to generate assembly for a file
+Ghost.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Ghost.cpp.s
+.PHONY : Ghost.cpp.s
+
+PlayerObject.o: PlayerObject.cpp.o
+.PHONY : PlayerObject.o
+
+# target to build an object file
+PlayerObject.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/PlayerObject.cpp.o
+.PHONY : PlayerObject.cpp.o
+
+PlayerObject.i: PlayerObject.cpp.i
+.PHONY : PlayerObject.i
+
+# target to preprocess a source file
+PlayerObject.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/PlayerObject.cpp.i
+.PHONY : PlayerObject.cpp.i
+
+PlayerObject.s: PlayerObject.cpp.s
+.PHONY : PlayerObject.s
+
+# target to generate assembly for a file
+PlayerObject.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/PlayerObject.cpp.s
+.PHONY : PlayerObject.cpp.s
+
+ResourceManager.o: ResourceManager.cpp.o
+.PHONY : ResourceManager.o
+
+# target to build an object file
+ResourceManager.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/ResourceManager.cpp.o
+.PHONY : ResourceManager.cpp.o
+
+ResourceManager.i: ResourceManager.cpp.i
+.PHONY : ResourceManager.i
+
+# target to preprocess a source file
+ResourceManager.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/ResourceManager.cpp.i
+.PHONY : ResourceManager.cpp.i
+
+ResourceManager.s: ResourceManager.cpp.s
+.PHONY : ResourceManager.s
+
+# target to generate assembly for a file
+ResourceManager.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/ResourceManager.cpp.s
+.PHONY : ResourceManager.cpp.s
+
+Shader.o: Shader.cpp.o
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
+SpriteRenderer.o: SpriteRenderer.cpp.o
+.PHONY : SpriteRenderer.o
+
+# target to build an object file
+SpriteRenderer.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/SpriteRenderer.cpp.o
+.PHONY : SpriteRenderer.cpp.o
+
+SpriteRenderer.i: SpriteRenderer.cpp.i
+.PHONY : SpriteRenderer.i
+
+# target to preprocess a source file
+SpriteRenderer.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/SpriteRenderer.cpp.i
+.PHONY : SpriteRenderer.cpp.i
+
+SpriteRenderer.s: SpriteRenderer.cpp.s
+.PHONY : SpriteRenderer.s
+
+# target to generate assembly for a file
+SpriteRenderer.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/SpriteRenderer.cpp.s
+.PHONY : SpriteRenderer.cpp.s
+
+Texture2D.o: Texture2D.cpp.o
+.PHONY : Texture2D.o
+
+# target to build an object file
+Texture2D.cpp.o:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Texture2D.cpp.o
+.PHONY : Texture2D.cpp.o
+
+Texture2D.i: Texture2D.cpp.i
+.PHONY : Texture2D.i
+
+# target to preprocess a source file
+Texture2D.cpp.i:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Texture2D.cpp.i
+.PHONY : Texture2D.cpp.i
+
+Texture2D.s: Texture2D.cpp.s
+.PHONY : Texture2D.s
+
+# target to generate assembly for a file
+Texture2D.cpp.s:
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/Texture2D.cpp.s
+.PHONY : Texture2D.cpp.s
 
 __/external/glad/src/glad.o: __/external/glad/src/glad.c.o
 .PHONY : __/external/glad/src/glad.o
 
 # target to build an object file
 __/external/glad/src/glad.c.o:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o
 .PHONY : __/external/glad/src/glad.c.o
 
 __/external/glad/src/glad.i: __/external/glad/src/glad.c.i
@@ -188,7 +404,7 @@ __/external/glad/src/glad.i: __/external/glad/src/glad.c.i
 
 # target to preprocess a source file
 __/external/glad/src/glad.c.i:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.i
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.i
 .PHONY : __/external/glad/src/glad.c.i
 
 __/external/glad/src/glad.s: __/external/glad/src/glad.c.s
@@ -196,7 +412,7 @@ __/external/glad/src/glad.s: __/external/glad/src/glad.c.s
 
 # target to generate assembly for a file
 __/external/glad/src/glad.c.s:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.s
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.s
 .PHONY : __/external/glad/src/glad.c.s
 
 main.o: main.cpp.o
@@ -204,7 +420,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.o
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -212,7 +428,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.i
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -220,7 +436,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.s
+	cd /home/jacob/source/pacman2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -236,6 +452,33 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... game"
+	@echo "... Eyes.o"
+	@echo "... Eyes.i"
+	@echo "... Eyes.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... GameObject.o"
+	@echo "... GameObject.i"
+	@echo "... GameObject.s"
+	@echo "... Ghost.o"
+	@echo "... Ghost.i"
+	@echo "... Ghost.s"
+	@echo "... PlayerObject.o"
+	@echo "... PlayerObject.i"
+	@echo "... PlayerObject.s"
+	@echo "... ResourceManager.o"
+	@echo "... ResourceManager.i"
+	@echo "... ResourceManager.s"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
+	@echo "... SpriteRenderer.o"
+	@echo "... SpriteRenderer.i"
+	@echo "... SpriteRenderer.s"
+	@echo "... Texture2D.o"
+	@echo "... Texture2D.i"
+	@echo "... Texture2D.s"
 	@echo "... __/external/glad/src/glad.o"
 	@echo "... __/external/glad/src/glad.i"
 	@echo "... __/external/glad/src/glad.s"
@@ -253,6 +496,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jacob/source/pacman2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

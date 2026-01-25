@@ -20,6 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -30,12 +31,14 @@ events:
       - "/usr/local/games/"
       - "/snap/bin/"
     searched_directories:
+      - "/home/jacob/.local/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
       - "/usr/sbin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -74,6 +77,7 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -84,12 +88,14 @@ events:
       - "/usr/local/games/"
       - "/snap/bin/"
     searched_directories:
+      - "/home/jacob/.local/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/sbin/gmake"
     found: "/usr/bin/gmake"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -126,6 +132,7 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -136,12 +143,14 @@ events:
       - "/usr/local/games/"
       - "/snap/bin/"
     searched_directories:
+      - "/home/jacob/.local/bin/cc"
       - "/usr/local/sbin/cc"
       - "/usr/local/bin/cc"
       - "/usr/sbin/cc"
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -179,6 +188,7 @@ events:
     found: "/snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -209,7 +219,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/4.2.2/CompilerIdC/a.out
+        /home/jacob/source/pacman2/build/CMakeFiles/4.2.2/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -232,6 +242,7 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -243,6 +254,7 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -274,6 +286,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -285,6 +298,7 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -316,6 +330,7 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -327,6 +342,7 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -358,6 +374,7 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -369,6 +386,7 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -400,6 +418,7 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -411,6 +430,7 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -442,6 +462,7 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -453,6 +474,7 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -484,6 +506,7 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -495,6 +518,7 @@ events:
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -526,6 +550,7 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -537,6 +562,7 @@ events:
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -568,6 +594,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -578,6 +605,7 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
+      - "/home/jacob/.local/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/usr/sbin/dlltool"
@@ -589,6 +617,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -620,6 +649,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -631,6 +661,7 @@ events:
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -662,6 +693,7 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -672,6 +704,7 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/tapi"
+      - "/home/jacob/.local/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/usr/sbin/tapi"
@@ -683,6 +716,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -717,6 +751,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -727,6 +762,7 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-13.3"
+      - "/home/jacob/.local/bin/gcc-ar-13.3"
       - "/usr/local/sbin/gcc-ar-13.3"
       - "/usr/local/bin/gcc-ar-13.3"
       - "/usr/sbin/gcc-ar-13.3"
@@ -738,6 +774,7 @@ events:
     found: "/usr/bin/gcc-ar-13"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -772,6 +809,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -782,6 +820,7 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-13.3"
+      - "/home/jacob/.local/bin/gcc-ranlib-13.3"
       - "/usr/local/sbin/gcc-ranlib-13.3"
       - "/usr/local/bin/gcc-ranlib-13.3"
       - "/usr/sbin/gcc-ranlib-13.3"
@@ -793,6 +832,7 @@ events:
     found: "/usr/bin/gcc-ranlib-13"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -836,6 +876,7 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -873,6 +914,7 @@ events:
     found: "/snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -903,7 +945,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/4.2.2/CompilerIdCXX/a.out
+        /home/jacob/source/pacman2/build/CMakeFiles/4.2.2/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -929,6 +971,7 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -939,6 +982,7 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-13.3"
+      - "/home/jacob/.local/bin/gcc-ar-13.3"
       - "/usr/local/sbin/gcc-ar-13.3"
       - "/usr/local/bin/gcc-ar-13.3"
       - "/usr/sbin/gcc-ar-13.3"
@@ -950,6 +994,7 @@ events:
     found: "/usr/bin/gcc-ar-13"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -984,6 +1029,7 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -994,6 +1040,7 @@ events:
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-13.3"
+      - "/home/jacob/.local/bin/gcc-ranlib-13.3"
       - "/usr/local/sbin/gcc-ranlib-13.3"
       - "/usr/local/bin/gcc-ranlib-13.3"
       - "/usr/sbin/gcc-ranlib-13.3"
@@ -1005,6 +1052,7 @@ events:
     found: "/usr/bin/gcc-ranlib-13"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1024,8 +1072,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-CXvohc"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-CXvohc"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1034,13 +1082,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-CXvohc'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83c28/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_83c28.dir/build.make CMakeFiles/cmTC_83c28.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof'
-        Building C object CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_186f9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_186f9.dir/build.make CMakeFiles/cmTC_186f9.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-CXvohc'
+        Building C object CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1050,8 +1098,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_83c28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMPZd0x.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_186f9.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_186f9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3jbEHZ.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -1068,14 +1116,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/'
-         as -v --64 -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o /tmp/ccMPZd0x.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_186f9.dir/'
+         as -v --64 -o CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o /tmp/cc3jbEHZ.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_83c28
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c28.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_186f9
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_186f9.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -1088,14 +1136,14 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83c28' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83c28.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_186f9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_186f9.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfvMZH0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_186f9 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         collect2 version 13.3.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfvMZH0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_186f9 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83c28' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83c28.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -o cmTC_83c28
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_186f9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_186f9.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o -o cmTC_186f9
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-CXvohc'
         
       exitCode: 0
   -
@@ -1130,13 +1178,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof']
+        ignore line: [Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-CXvohc']
         ignore line: []
-        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83c28/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_83c28.dir/build.make CMakeFiles/cmTC_83c28.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-locPof']
-        ignore line: [Building C object CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_186f9/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_186f9.dir/build.make CMakeFiles/cmTC_186f9.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-CXvohc']
+        ignore line: [Building C object CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1146,8 +1194,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_83c28.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccMPZd0x.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_186f9.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_186f9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3jbEHZ.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -1164,14 +1212,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o /tmp/ccMPZd0x.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_186f9.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o /tmp/cc3jbEHZ.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_83c28]
-        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83c28.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_186f9]
+        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_186f9.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -1184,13 +1232,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83c28' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83c28.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_186f9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_186f9.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfvMZH0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_186f9 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc63UXbd.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccfvMZH0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1208,7 +1256,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_83c28] ==> ignore
+          arg [cmTC_186f9] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -1221,7 +1269,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1236,7 +1284,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc63UXbd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83c28 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_83c28.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfvMZH0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_186f9 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_186f9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1274,8 +1322,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-MOekDc"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-MOekDc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1285,13 +1333,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-MOekDc'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06c1e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_06c1e.dir/build.make CMakeFiles/cmTC_06c1e.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g'
-        Building CXX object CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4b95/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d4b95.dir/build.make CMakeFiles/cmTC_d4b95.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-MOekDc'
+        Building CXX object CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1301,8 +1349,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06c1e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGomNG2.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4b95.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4b95.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvifg0M.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -1323,14 +1371,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/'
-         as -v --64 -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGomNG2.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4b95.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvifg0M.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_06c1e
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06c1e.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d4b95
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b95.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
@@ -1343,14 +1391,14 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06c1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06c1e.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4b95' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4b95.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cciFRhcW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d4b95 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         collect2 version 13.3.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cciFRhcW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d4b95 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06c1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06c1e.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_06c1e
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4b95' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4b95.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d4b95
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-MOekDc'
         
       exitCode: 0
   -
@@ -1391,13 +1439,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g']
+        ignore line: [Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-MOekDc']
         ignore line: []
-        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06c1e/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_06c1e.dir/build.make CMakeFiles/cmTC_06c1e.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-kh5I8g']
-        ignore line: [Building CXX object CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4b95/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_d4b95.dir/build.make CMakeFiles/cmTC_d4b95.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-MOekDc']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1407,8 +1455,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06c1e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGomNG2.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4b95.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1509/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d4b95.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccvifg0M.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -1429,14 +1477,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGomNG2.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4b95.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccvifg0M.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_06c1e]
-        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06c1e.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d4b95]
+        ignore line: [/snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b95.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
@@ -1449,13 +1497,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_06c1e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_06c1e.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d4b95' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d4b95.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cciFRhcW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d4b95 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2CQuD9.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cciFRhcW.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1473,7 +1521,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_06c1e] ==> ignore
+          arg [cmTC_d4b95] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -1486,7 +1534,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1497,7 +1545,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 13.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2CQuD9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_06c1e /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_06c1e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cciFRhcW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d4b95 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -v CMakeFiles/cmTC_d4b95.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1537,28 +1585,28 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-FC670c"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-FC670c"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-FC670c'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ccb4c/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ccb4c.dir/build.make CMakeFiles/cmTC_ccb4c.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh'
-        Building C object CMakeFiles/cmTC_ccb4c.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ccb4c.dir/src.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh/src.c
-        Linking C executable cmTC_ccb4c
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccb4c.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_ccb4c.dir/src.c.o -o cmTC_ccb4c
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-wqCOnh'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ce0f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ce0f.dir/build.make CMakeFiles/cmTC_4ce0f.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-FC670c'
+        Building C object CMakeFiles/cmTC_4ce0f.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_4ce0f.dir/src.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-FC670c/src.c
+        Linking C executable cmTC_4ce0f
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ce0f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4ce0f.dir/src.c.o -o cmTC_4ce0f
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-FC670c'
         
       exitCode: 0
   -
@@ -1569,28 +1617,28 @@ events:
     checks:
       - "Looking for memfd_create"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-LksMvb"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-LksMvb"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "HAVE_MEMFD_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-LksMvb'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5ff9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a5ff9.dir/build.make CMakeFiles/cmTC_a5ff9.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope'
-        Building C object CMakeFiles/cmTC_a5ff9.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memfd_create -o CMakeFiles/cmTC_a5ff9.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope/CheckFunctionExists.c
-        Linking C executable cmTC_a5ff9
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5ff9.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memfd_create CMakeFiles/cmTC_a5ff9.dir/CheckFunctionExists.c.o -o cmTC_a5ff9
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-3MCope'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_782cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_782cf.dir/build.make CMakeFiles/cmTC_782cf.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-LksMvb'
+        Building C object CMakeFiles/cmTC_782cf.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memfd_create -o CMakeFiles/cmTC_782cf.dir/CheckFunctionExists.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-LksMvb/CheckFunctionExists.c
+        Linking C executable cmTC_782cf
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_782cf.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memfd_create CMakeFiles/cmTC_782cf.dir/CheckFunctionExists.c.o -o cmTC_782cf
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-LksMvb'
         
       exitCode: 0
   -
@@ -1611,6 +1659,7 @@ events:
     names:
       - "wayland-scanner"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1641,12 +1690,14 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
+      - "/home/jacob/.local/bin/wayland-scanner"
       - "/usr/local/sbin/wayland-scanner"
       - "/usr/local/bin/wayland-scanner"
       - "/usr/sbin/wayland-scanner"
     found: "/usr/bin/wayland-scanner"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1687,6 +1738,7 @@ events:
       - "pkg-config"
       - "pkgconf"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1717,6 +1769,8 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
+      - "/home/jacob/.local/bin/pkg-config"
+      - "/home/jacob/.local/bin/pkgconf"
       - "/usr/local/sbin/pkg-config"
       - "/usr/local/sbin/pkgconf"
       - "/usr/local/bin/pkg-config"
@@ -1726,6 +1780,7 @@ events:
     found: "/usr/bin/pkg-config"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1772,6 +1827,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libwayland-cursor.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1820,6 +1876,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libwayland-egl.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1868,6 +1925,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libwayland-client.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1916,6 +1974,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libxkbcommon.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -1957,6 +2016,7 @@ events:
     names:
       - "X11/X.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -1995,6 +2055,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/X.h"
       - "/usr/local/sbin/X11/X.h"
       - "/usr/local/bin/X11/X.h"
       - "/usr/sbin/X11/X.h"
@@ -2011,6 +2072,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2052,6 +2114,7 @@ events:
     names:
       - "X11/Xlib.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2090,6 +2153,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xlib.h"
       - "/usr/local/sbin/X11/Xlib.h"
       - "/usr/local/bin/X11/Xlib.h"
       - "/usr/sbin/X11/Xlib.h"
@@ -2106,6 +2170,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2147,6 +2212,7 @@ events:
     names:
       - "X11/ICE/ICE.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2185,6 +2251,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/ICE/ICE.h"
       - "/usr/local/sbin/X11/ICE/ICE.h"
       - "/usr/local/bin/X11/ICE/ICE.h"
       - "/usr/sbin/X11/ICE/ICE.h"
@@ -2201,6 +2268,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2242,6 +2310,7 @@ events:
     names:
       - "X11/SM/SM.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2280,6 +2349,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/SM/SM.h"
       - "/usr/local/sbin/X11/SM/SM.h"
       - "/usr/local/bin/X11/SM/SM.h"
       - "/usr/sbin/X11/SM/SM.h"
@@ -2296,6 +2366,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2337,6 +2408,7 @@ events:
     names:
       - "X11/extensions/XKBrules.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2375,6 +2447,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XKBrules.h"
       - "/usr/local/sbin/X11/extensions/XKBrules.h"
       - "/usr/local/bin/X11/extensions/XKBrules.h"
       - "/usr/sbin/X11/extensions/XKBrules.h"
@@ -2391,6 +2464,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2432,6 +2506,7 @@ events:
     names:
       - "X11/extensions/XKBstr.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2470,6 +2545,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XKBstr.h"
       - "/usr/local/sbin/X11/extensions/XKBstr.h"
       - "/usr/local/bin/X11/extensions/XKBstr.h"
       - "/usr/sbin/X11/extensions/XKBstr.h"
@@ -2486,6 +2562,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2527,6 +2604,7 @@ events:
     names:
       - "X11/Xauth.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2565,6 +2643,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xauth.h"
       - "/usr/local/sbin/X11/Xauth.h"
       - "/usr/local/bin/X11/Xauth.h"
       - "/usr/sbin/X11/Xauth.h"
@@ -2581,6 +2660,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2622,6 +2702,7 @@ events:
     names:
       - "X11/Xaw/Box.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2660,6 +2741,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xaw/Box.h"
       - "/usr/local/sbin/X11/Xaw/Box.h"
       - "/usr/local/bin/X11/Xaw/Box.h"
       - "/usr/sbin/X11/Xaw/Box.h"
@@ -2676,6 +2758,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2717,6 +2800,7 @@ events:
     names:
       - "xcb/xcb.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2755,6 +2839,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb.h"
       - "/usr/local/sbin/xcb/xcb.h"
       - "/usr/local/bin/xcb/xcb.h"
       - "/usr/sbin/xcb/xcb.h"
@@ -2771,6 +2856,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2812,6 +2898,7 @@ events:
     names:
       - "X11/Xlib-xcb.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2850,6 +2937,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xlib-xcb.h"
       - "/usr/local/sbin/X11/Xlib-xcb.h"
       - "/usr/local/bin/X11/Xlib-xcb.h"
       - "/usr/sbin/X11/Xlib-xcb.h"
@@ -2890,6 +2978,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -2931,6 +3020,7 @@ events:
     names:
       - "xcb/composite.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -2969,6 +3059,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/composite.h"
       - "/usr/local/sbin/xcb/composite.h"
       - "/usr/local/bin/xcb/composite.h"
       - "/usr/sbin/xcb/composite.h"
@@ -3009,6 +3100,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3050,6 +3142,7 @@ events:
     names:
       - "xcb/xcb_cursor.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3088,6 +3181,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_cursor.h"
       - "/usr/local/sbin/xcb/xcb_cursor.h"
       - "/usr/local/bin/xcb/xcb_cursor.h"
       - "/usr/sbin/xcb/xcb_cursor.h"
@@ -3128,6 +3222,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3169,6 +3264,7 @@ events:
     names:
       - "xcb/damage.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3207,6 +3303,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/damage.h"
       - "/usr/local/sbin/xcb/damage.h"
       - "/usr/local/bin/xcb/damage.h"
       - "/usr/sbin/xcb/damage.h"
@@ -3247,6 +3344,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3288,6 +3386,7 @@ events:
     names:
       - "xcb/dpms.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3326,6 +3425,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/dpms.h"
       - "/usr/local/sbin/xcb/dpms.h"
       - "/usr/local/bin/xcb/dpms.h"
       - "/usr/sbin/xcb/dpms.h"
@@ -3366,6 +3466,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3407,6 +3508,7 @@ events:
     names:
       - "xcb/dri2.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3445,6 +3547,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/dri2.h"
       - "/usr/local/sbin/xcb/dri2.h"
       - "/usr/local/bin/xcb/dri2.h"
       - "/usr/sbin/xcb/dri2.h"
@@ -3485,6 +3588,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3526,6 +3630,7 @@ events:
     names:
       - "xcb/dri3.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3564,6 +3669,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/dri3.h"
       - "/usr/local/sbin/xcb/dri3.h"
       - "/usr/local/bin/xcb/dri3.h"
       - "/usr/sbin/xcb/dri3.h"
@@ -3604,6 +3710,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3645,6 +3752,7 @@ events:
     names:
       - "xcb/xcb_errors.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3683,6 +3791,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_errors.h"
       - "/usr/local/sbin/xcb/xcb_errors.h"
       - "/usr/local/bin/xcb/xcb_errors.h"
       - "/usr/sbin/xcb/xcb_errors.h"
@@ -3723,6 +3832,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3764,6 +3874,7 @@ events:
     names:
       - "xcb/xcb_ewmh.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3802,6 +3913,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_ewmh.h"
       - "/usr/local/sbin/xcb/xcb_ewmh.h"
       - "/usr/local/bin/xcb/xcb_ewmh.h"
       - "/usr/sbin/xcb/xcb_ewmh.h"
@@ -3842,6 +3954,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -3883,6 +3996,7 @@ events:
     names:
       - "xcb/glx.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -3921,6 +4035,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/glx.h"
       - "/usr/local/sbin/xcb/glx.h"
       - "/usr/local/bin/xcb/glx.h"
       - "/usr/sbin/xcb/glx.h"
@@ -3961,6 +4076,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4002,6 +4118,7 @@ events:
     names:
       - "xcb/xcb_icccm.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4040,6 +4157,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_icccm.h"
       - "/usr/local/sbin/xcb/xcb_icccm.h"
       - "/usr/local/bin/xcb/xcb_icccm.h"
       - "/usr/sbin/xcb/xcb_icccm.h"
@@ -4080,6 +4198,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4121,6 +4240,7 @@ events:
     names:
       - "xcb/xcb_image.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4159,6 +4279,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_image.h"
       - "/usr/local/sbin/xcb/xcb_image.h"
       - "/usr/local/bin/xcb/xcb_image.h"
       - "/usr/sbin/xcb/xcb_image.h"
@@ -4199,6 +4320,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4240,6 +4362,7 @@ events:
     names:
       - "xcb/xcb_keysyms.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4278,6 +4401,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_keysyms.h"
       - "/usr/local/sbin/xcb/xcb_keysyms.h"
       - "/usr/local/bin/xcb/xcb_keysyms.h"
       - "/usr/sbin/xcb/xcb_keysyms.h"
@@ -4318,6 +4442,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4359,6 +4484,7 @@ events:
     names:
       - "xcb/present.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4397,6 +4523,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/present.h"
       - "/usr/local/sbin/xcb/present.h"
       - "/usr/local/bin/xcb/present.h"
       - "/usr/sbin/xcb/present.h"
@@ -4437,6 +4564,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4478,6 +4606,7 @@ events:
     names:
       - "xcb/randr.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4516,6 +4645,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/randr.h"
       - "/usr/local/sbin/xcb/randr.h"
       - "/usr/local/bin/xcb/randr.h"
       - "/usr/sbin/xcb/randr.h"
@@ -4556,6 +4686,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4597,6 +4728,7 @@ events:
     names:
       - "xcb/record.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4635,6 +4767,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/record.h"
       - "/usr/local/sbin/xcb/record.h"
       - "/usr/local/bin/xcb/record.h"
       - "/usr/sbin/xcb/record.h"
@@ -4675,6 +4808,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4716,6 +4850,7 @@ events:
     names:
       - "xcb/render.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4754,6 +4889,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/render.h"
       - "/usr/local/sbin/xcb/render.h"
       - "/usr/local/bin/xcb/render.h"
       - "/usr/sbin/xcb/render.h"
@@ -4794,6 +4930,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4835,6 +4972,7 @@ events:
     names:
       - "xcb/xcb_renderutil.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4873,6 +5011,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_renderutil.h"
       - "/usr/local/sbin/xcb/xcb_renderutil.h"
       - "/usr/local/bin/xcb/xcb_renderutil.h"
       - "/usr/sbin/xcb/xcb_renderutil.h"
@@ -4913,6 +5052,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -4954,6 +5094,7 @@ events:
     names:
       - "xcb/res.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -4992,6 +5133,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/res.h"
       - "/usr/local/sbin/xcb/res.h"
       - "/usr/local/bin/xcb/res.h"
       - "/usr/sbin/xcb/res.h"
@@ -5032,6 +5174,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5073,6 +5216,7 @@ events:
     names:
       - "xcb/screensaver.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5111,6 +5255,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/screensaver.h"
       - "/usr/local/sbin/xcb/screensaver.h"
       - "/usr/local/bin/xcb/screensaver.h"
       - "/usr/sbin/xcb/screensaver.h"
@@ -5151,6 +5296,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5192,6 +5338,7 @@ events:
     names:
       - "xcb/shape.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5230,6 +5377,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/shape.h"
       - "/usr/local/sbin/xcb/shape.h"
       - "/usr/local/bin/xcb/shape.h"
       - "/usr/sbin/xcb/shape.h"
@@ -5270,6 +5418,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5311,6 +5460,7 @@ events:
     names:
       - "xcb/shm.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5349,6 +5499,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/shm.h"
       - "/usr/local/sbin/xcb/shm.h"
       - "/usr/local/bin/xcb/shm.h"
       - "/usr/sbin/xcb/shm.h"
@@ -5389,6 +5540,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5430,6 +5582,7 @@ events:
     names:
       - "xcb/sync.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5468,6 +5621,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/sync.h"
       - "/usr/local/sbin/xcb/sync.h"
       - "/usr/local/bin/xcb/sync.h"
       - "/usr/sbin/xcb/sync.h"
@@ -5508,6 +5662,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5549,6 +5704,7 @@ events:
     names:
       - "xcb/xcb_aux.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5587,6 +5743,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_aux.h"
       - "/usr/local/sbin/xcb/xcb_aux.h"
       - "/usr/local/bin/xcb/xcb_aux.h"
       - "/usr/sbin/xcb/xcb_aux.h"
@@ -5627,6 +5784,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5668,6 +5826,7 @@ events:
     names:
       - "xcb/xf86dri.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5706,6 +5865,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xf86dri.h"
       - "/usr/local/sbin/xcb/xf86dri.h"
       - "/usr/local/bin/xcb/xf86dri.h"
       - "/usr/sbin/xcb/xf86dri.h"
@@ -5746,6 +5906,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5787,6 +5948,7 @@ events:
     names:
       - "xcb/xfixes.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5825,6 +5987,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xfixes.h"
       - "/usr/local/sbin/xcb/xfixes.h"
       - "/usr/local/bin/xcb/xfixes.h"
       - "/usr/sbin/xcb/xfixes.h"
@@ -5865,6 +6028,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -5906,6 +6070,7 @@ events:
     names:
       - "xcb/xinerama.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -5944,6 +6109,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xinerama.h"
       - "/usr/local/sbin/xcb/xinerama.h"
       - "/usr/local/bin/xcb/xinerama.h"
       - "/usr/sbin/xcb/xinerama.h"
@@ -5984,6 +6150,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6025,6 +6192,7 @@ events:
     names:
       - "xcb/xinput.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6063,6 +6231,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xinput.h"
       - "/usr/local/sbin/xcb/xinput.h"
       - "/usr/local/bin/xcb/xinput.h"
       - "/usr/sbin/xcb/xinput.h"
@@ -6103,6 +6272,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6144,6 +6314,7 @@ events:
     names:
       - "xcb/xkb.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6182,6 +6353,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xkb.h"
       - "/usr/local/sbin/xcb/xkb.h"
       - "/usr/local/bin/xcb/xkb.h"
       - "/usr/sbin/xcb/xkb.h"
@@ -6222,6 +6394,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6263,6 +6436,7 @@ events:
     names:
       - "xcb/xcb_xrm.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6301,6 +6475,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xcb_xrm.h"
       - "/usr/local/sbin/xcb/xcb_xrm.h"
       - "/usr/local/bin/xcb/xcb_xrm.h"
       - "/usr/sbin/xcb/xcb_xrm.h"
@@ -6341,6 +6516,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6382,6 +6558,7 @@ events:
     names:
       - "xcb/xtest.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6420,6 +6597,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xtest.h"
       - "/usr/local/sbin/xcb/xtest.h"
       - "/usr/local/bin/xcb/xtest.h"
       - "/usr/sbin/xcb/xtest.h"
@@ -6460,6 +6638,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6501,6 +6680,7 @@ events:
     names:
       - "xcb/xvmc.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6539,6 +6719,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xvmc.h"
       - "/usr/local/sbin/xcb/xvmc.h"
       - "/usr/local/bin/xcb/xvmc.h"
       - "/usr/sbin/xcb/xvmc.h"
@@ -6579,6 +6760,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6620,6 +6802,7 @@ events:
     names:
       - "xcb/xv.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6658,6 +6841,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xcb/xv.h"
       - "/usr/local/sbin/xcb/xv.h"
       - "/usr/local/bin/xcb/xv.h"
       - "/usr/sbin/xcb/xv.h"
@@ -6698,6 +6882,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6739,6 +6924,7 @@ events:
     names:
       - "X11/extensions/Xcomposite.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6777,6 +6963,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xcomposite.h"
       - "/usr/local/sbin/X11/extensions/Xcomposite.h"
       - "/usr/local/bin/X11/extensions/Xcomposite.h"
       - "/usr/sbin/X11/extensions/Xcomposite.h"
@@ -6793,6 +6980,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6834,6 +7022,7 @@ events:
     names:
       - "X11/Xcursor/Xcursor.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6872,6 +7061,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xcursor/Xcursor.h"
       - "/usr/local/sbin/X11/Xcursor/Xcursor.h"
       - "/usr/local/bin/X11/Xcursor/Xcursor.h"
       - "/usr/sbin/X11/Xcursor/Xcursor.h"
@@ -6888,6 +7078,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -6929,6 +7120,7 @@ events:
     names:
       - "X11/extensions/Xdamage.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -6967,6 +7159,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xdamage.h"
       - "/usr/local/sbin/X11/extensions/Xdamage.h"
       - "/usr/local/bin/X11/extensions/Xdamage.h"
       - "/usr/sbin/X11/extensions/Xdamage.h"
@@ -6983,6 +7176,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7024,6 +7218,7 @@ events:
     names:
       - "X11/extensions/Xdbe.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7062,6 +7257,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xdbe.h"
       - "/usr/local/sbin/X11/extensions/Xdbe.h"
       - "/usr/local/bin/X11/extensions/Xdbe.h"
       - "/usr/sbin/X11/extensions/Xdbe.h"
@@ -7078,6 +7274,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7119,6 +7316,7 @@ events:
     names:
       - "X11/Xdmcp.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7157,6 +7355,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xdmcp.h"
       - "/usr/local/sbin/X11/Xdmcp.h"
       - "/usr/local/bin/X11/Xdmcp.h"
       - "/usr/sbin/X11/Xdmcp.h"
@@ -7173,6 +7372,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7214,6 +7414,7 @@ events:
     names:
       - "X11/extensions/Xext.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7252,6 +7453,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xext.h"
       - "/usr/local/sbin/X11/extensions/Xext.h"
       - "/usr/local/bin/X11/extensions/Xext.h"
       - "/usr/sbin/X11/extensions/Xext.h"
@@ -7268,6 +7470,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7309,6 +7512,7 @@ events:
     names:
       - "X11/extensions/dpms.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7347,6 +7551,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/dpms.h"
       - "/usr/local/sbin/X11/extensions/dpms.h"
       - "/usr/local/bin/X11/extensions/dpms.h"
       - "/usr/sbin/X11/extensions/dpms.h"
@@ -7363,6 +7568,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7404,6 +7610,7 @@ events:
     names:
       - "X11/extensions/xf86misc.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7442,6 +7649,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/xf86misc.h"
       - "/usr/local/sbin/X11/extensions/xf86misc.h"
       - "/usr/local/bin/X11/extensions/xf86misc.h"
       - "/usr/sbin/X11/extensions/xf86misc.h"
@@ -7482,6 +7690,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7523,6 +7732,7 @@ events:
     names:
       - "X11/extensions/xf86vmode.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7561,6 +7771,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/xf86vmode.h"
       - "/usr/local/sbin/X11/extensions/xf86vmode.h"
       - "/usr/local/bin/X11/extensions/xf86vmode.h"
       - "/usr/sbin/X11/extensions/xf86vmode.h"
@@ -7577,6 +7788,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7618,6 +7830,7 @@ events:
     names:
       - "X11/extensions/Xfixes.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7656,6 +7869,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xfixes.h"
       - "/usr/local/sbin/X11/extensions/Xfixes.h"
       - "/usr/local/bin/X11/extensions/Xfixes.h"
       - "/usr/sbin/X11/extensions/Xfixes.h"
@@ -7672,6 +7886,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7713,6 +7928,7 @@ events:
     names:
       - "X11/Xft/Xft.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7751,6 +7967,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xft/Xft.h"
       - "/usr/local/sbin/X11/Xft/Xft.h"
       - "/usr/local/bin/X11/Xft/Xft.h"
       - "/usr/sbin/X11/Xft/Xft.h"
@@ -7767,6 +7984,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7808,6 +8026,7 @@ events:
     names:
       - "X11/extensions/XInput.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7846,6 +8065,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XInput.h"
       - "/usr/local/sbin/X11/extensions/XInput.h"
       - "/usr/local/bin/X11/extensions/XInput.h"
       - "/usr/sbin/X11/extensions/XInput.h"
@@ -7862,6 +8082,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7903,6 +8124,7 @@ events:
     names:
       - "X11/extensions/Xinerama.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -7941,6 +8163,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xinerama.h"
       - "/usr/local/sbin/X11/extensions/Xinerama.h"
       - "/usr/local/bin/X11/extensions/Xinerama.h"
       - "/usr/sbin/X11/extensions/Xinerama.h"
@@ -7957,6 +8180,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -7998,6 +8222,7 @@ events:
     names:
       - "X11/extensions/XKB.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8036,6 +8261,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XKB.h"
       - "/usr/local/sbin/X11/extensions/XKB.h"
       - "/usr/local/bin/X11/extensions/XKB.h"
       - "/usr/sbin/X11/extensions/XKB.h"
@@ -8052,6 +8278,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8093,6 +8320,7 @@ events:
     names:
       - "xkbcommon/xkbcommon.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8131,6 +8359,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xkbcommon/xkbcommon.h"
       - "/usr/local/sbin/xkbcommon/xkbcommon.h"
       - "/usr/local/bin/xkbcommon/xkbcommon.h"
       - "/usr/sbin/xkbcommon/xkbcommon.h"
@@ -8147,6 +8376,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8188,6 +8418,7 @@ events:
     names:
       - "xkbcommon/xkbcommon-x11.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8226,6 +8457,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/xkbcommon/xkbcommon-x11.h"
       - "/usr/local/sbin/xkbcommon/xkbcommon-x11.h"
       - "/usr/local/bin/xkbcommon/xkbcommon-x11.h"
       - "/usr/sbin/xkbcommon/xkbcommon-x11.h"
@@ -8266,6 +8498,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8307,6 +8540,7 @@ events:
     names:
       - "X11/XKBlib.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8345,6 +8579,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/XKBlib.h"
       - "/usr/local/sbin/X11/XKBlib.h"
       - "/usr/local/bin/X11/XKBlib.h"
       - "/usr/sbin/X11/XKBlib.h"
@@ -8361,6 +8596,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8402,6 +8638,7 @@ events:
     names:
       - "X11/extensions/XKBfile.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8440,6 +8677,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XKBfile.h"
       - "/usr/local/sbin/X11/extensions/XKBfile.h"
       - "/usr/local/bin/X11/extensions/XKBfile.h"
       - "/usr/sbin/X11/extensions/XKBfile.h"
@@ -8456,6 +8694,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8497,6 +8736,7 @@ events:
     names:
       - "X11/Xmu/Xmu.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8535,6 +8775,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xmu/Xmu.h"
       - "/usr/local/sbin/X11/Xmu/Xmu.h"
       - "/usr/local/bin/X11/Xmu/Xmu.h"
       - "/usr/sbin/X11/Xmu/Xmu.h"
@@ -8551,6 +8792,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8592,6 +8834,7 @@ events:
     names:
       - "X11/xpm.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8630,6 +8873,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/xpm.h"
       - "/usr/local/sbin/X11/xpm.h"
       - "/usr/local/bin/X11/xpm.h"
       - "/usr/sbin/X11/xpm.h"
@@ -8646,6 +8890,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8687,6 +8932,7 @@ events:
     names:
       - "X11/extensions/Xpresent.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8725,6 +8971,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xpresent.h"
       - "/usr/local/sbin/X11/extensions/Xpresent.h"
       - "/usr/local/bin/X11/extensions/Xpresent.h"
       - "/usr/sbin/X11/extensions/Xpresent.h"
@@ -8765,6 +9012,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8806,6 +9054,7 @@ events:
     names:
       - "X11/extensions/XTest.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8844,6 +9093,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XTest.h"
       - "/usr/local/sbin/X11/extensions/XTest.h"
       - "/usr/local/bin/X11/extensions/XTest.h"
       - "/usr/sbin/X11/extensions/XTest.h"
@@ -8860,6 +9110,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8901,6 +9152,7 @@ events:
     names:
       - "X11/extensions/XShm.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -8939,6 +9191,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XShm.h"
       - "/usr/local/sbin/X11/extensions/XShm.h"
       - "/usr/local/bin/X11/extensions/XShm.h"
       - "/usr/sbin/X11/extensions/XShm.h"
@@ -8955,6 +9208,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -8996,6 +9250,7 @@ events:
     names:
       - "X11/extensions/Xrandr.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9034,6 +9289,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xrandr.h"
       - "/usr/local/sbin/X11/extensions/Xrandr.h"
       - "/usr/local/bin/X11/extensions/Xrandr.h"
       - "/usr/sbin/X11/extensions/Xrandr.h"
@@ -9050,6 +9306,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9091,6 +9348,7 @@ events:
     names:
       - "X11/extensions/Xrender.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9129,6 +9387,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xrender.h"
       - "/usr/local/sbin/X11/extensions/Xrender.h"
       - "/usr/local/bin/X11/extensions/Xrender.h"
       - "/usr/sbin/X11/extensions/Xrender.h"
@@ -9145,6 +9404,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9186,6 +9446,7 @@ events:
     names:
       - "X11/extensions/XRes.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9224,6 +9485,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/XRes.h"
       - "/usr/local/sbin/X11/extensions/XRes.h"
       - "/usr/local/bin/X11/extensions/XRes.h"
       - "/usr/sbin/X11/extensions/XRes.h"
@@ -9240,6 +9502,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9281,6 +9544,7 @@ events:
     names:
       - "X11/extensions/scrnsaver.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9319,6 +9583,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/scrnsaver.h"
       - "/usr/local/sbin/X11/extensions/scrnsaver.h"
       - "/usr/local/bin/X11/extensions/scrnsaver.h"
       - "/usr/sbin/X11/extensions/scrnsaver.h"
@@ -9335,6 +9600,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9376,6 +9642,7 @@ events:
     names:
       - "X11/extensions/shape.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9414,6 +9681,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/shape.h"
       - "/usr/local/sbin/X11/extensions/shape.h"
       - "/usr/local/bin/X11/extensions/shape.h"
       - "/usr/sbin/X11/extensions/shape.h"
@@ -9430,6 +9698,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9471,6 +9740,7 @@ events:
     names:
       - "X11/Xutil.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9509,6 +9779,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Xutil.h"
       - "/usr/local/sbin/X11/Xutil.h"
       - "/usr/local/bin/X11/Xutil.h"
       - "/usr/sbin/X11/Xutil.h"
@@ -9525,6 +9796,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9566,6 +9838,7 @@ events:
     names:
       - "X11/Intrinsic.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9604,6 +9877,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/Intrinsic.h"
       - "/usr/local/sbin/X11/Intrinsic.h"
       - "/usr/local/bin/X11/Intrinsic.h"
       - "/usr/sbin/X11/Intrinsic.h"
@@ -9620,6 +9894,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9661,6 +9936,7 @@ events:
     names:
       - "X11/extensions/Xvlib.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9699,6 +9975,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/Xvlib.h"
       - "/usr/local/sbin/X11/extensions/Xvlib.h"
       - "/usr/local/bin/X11/extensions/Xvlib.h"
       - "/usr/sbin/X11/extensions/Xvlib.h"
@@ -9715,6 +9992,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9756,6 +10034,7 @@ events:
     names:
       - "X11/extensions/sync.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9794,6 +10073,7 @@ events:
       - "/opt/graphics/OpenGL/include/"
       - "/opt/X11/include/"
     searched_directories:
+      - "/home/jacob/.local/bin/X11/extensions/sync.h"
       - "/usr/local/sbin/X11/extensions/sync.h"
       - "/usr/local/bin/X11/extensions/sync.h"
       - "/usr/sbin/X11/extensions/sync.h"
@@ -9810,6 +10090,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9851,6 +10132,7 @@ events:
     names:
       - "X11"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9887,6 +10169,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9902,6 +10185,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libX11.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -9943,6 +10227,7 @@ events:
     names:
       - "ICE"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9979,6 +10264,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -9994,6 +10280,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libICE.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10035,6 +10322,7 @@ events:
     names:
       - "SM"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10071,6 +10359,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10086,6 +10375,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libSM.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10127,6 +10417,7 @@ events:
     names:
       - "Xau"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10163,6 +10454,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10178,6 +10470,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXau.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10219,6 +10512,7 @@ events:
     names:
       - "Xaw"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10255,6 +10549,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10270,6 +10565,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXaw.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10311,6 +10607,7 @@ events:
     names:
       - "xcb"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10347,6 +10644,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10362,6 +10660,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libxcb.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10403,6 +10702,7 @@ events:
     names:
       - "X11-xcb"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10439,6 +10739,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10477,6 +10778,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10518,6 +10820,7 @@ events:
     names:
       - "xcb-composite"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10554,6 +10857,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10592,6 +10896,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10633,6 +10938,7 @@ events:
     names:
       - "xcb-cursor"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10669,6 +10975,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10707,6 +11014,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10748,6 +11056,7 @@ events:
     names:
       - "xcb-damage"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10784,6 +11093,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10822,6 +11132,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10863,6 +11174,7 @@ events:
     names:
       - "xcb-dpms"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10899,6 +11211,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -10937,6 +11250,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -10978,6 +11292,7 @@ events:
     names:
       - "xcb-dri2"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11014,6 +11329,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11052,6 +11368,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11093,6 +11410,7 @@ events:
     names:
       - "xcb-dri3"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11129,6 +11447,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11167,6 +11486,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11208,6 +11528,7 @@ events:
     names:
       - "xcb-errors"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11244,6 +11565,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11282,6 +11604,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11323,6 +11646,7 @@ events:
     names:
       - "xcb-ewmh"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11359,6 +11683,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11397,6 +11722,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11438,6 +11764,7 @@ events:
     names:
       - "xcb-glx"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11474,6 +11801,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11512,6 +11840,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11553,6 +11882,7 @@ events:
     names:
       - "xcb-icccm"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11589,6 +11919,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11627,6 +11958,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11668,6 +12000,7 @@ events:
     names:
       - "xcb-image"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11704,6 +12037,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11742,6 +12076,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11783,6 +12118,7 @@ events:
     names:
       - "xcb-keysyms"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11819,6 +12155,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11857,6 +12194,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -11898,6 +12236,7 @@ events:
     names:
       - "xcb-present"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11934,6 +12273,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -11972,6 +12312,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12013,6 +12354,7 @@ events:
     names:
       - "xcb-randr"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12049,6 +12391,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12087,6 +12430,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12128,6 +12472,7 @@ events:
     names:
       - "xcb-record"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12164,6 +12509,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12202,6 +12548,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12243,6 +12590,7 @@ events:
     names:
       - "xcb-render"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12279,6 +12627,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12317,6 +12666,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12358,6 +12708,7 @@ events:
     names:
       - "xcb-render-util"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12394,6 +12745,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12432,6 +12784,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12473,6 +12826,7 @@ events:
     names:
       - "xcb-res"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12509,6 +12863,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12547,6 +12902,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12588,6 +12944,7 @@ events:
     names:
       - "xcb-screensaver"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12624,6 +12981,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12662,6 +13020,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12703,6 +13062,7 @@ events:
     names:
       - "xcb-shape"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12739,6 +13099,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12777,6 +13138,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12818,6 +13180,7 @@ events:
     names:
       - "xcb-shm"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12854,6 +13217,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12892,6 +13256,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -12933,6 +13298,7 @@ events:
     names:
       - "xcb-sync"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -12969,6 +13335,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13007,6 +13374,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13048,6 +13416,7 @@ events:
     names:
       - "xcb-util"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13084,6 +13453,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13122,6 +13492,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13163,6 +13534,7 @@ events:
     names:
       - "xcb-xf86dri"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13199,6 +13571,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13237,6 +13610,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13278,6 +13652,7 @@ events:
     names:
       - "xcb-xfixes"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13314,6 +13689,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13352,6 +13728,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13393,6 +13770,7 @@ events:
     names:
       - "xcb-xinerama"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13429,6 +13807,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13467,6 +13846,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13508,6 +13888,7 @@ events:
     names:
       - "xcb-xinput"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13544,6 +13925,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13582,6 +13964,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13623,6 +14006,7 @@ events:
     names:
       - "xcb-xkb"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13659,6 +14043,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13697,6 +14082,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13738,6 +14124,7 @@ events:
     names:
       - "xcb-xrm"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13774,6 +14161,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13812,6 +14200,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13853,6 +14242,7 @@ events:
     names:
       - "xcb-xtest"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13889,6 +14279,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -13927,6 +14318,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -13968,6 +14360,7 @@ events:
     names:
       - "xcb-xvmc"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14004,6 +14397,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14042,6 +14436,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14083,6 +14478,7 @@ events:
     names:
       - "xcb-xv"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14119,6 +14515,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14157,6 +14554,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14198,6 +14596,7 @@ events:
     names:
       - "Xcomposite"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14234,6 +14633,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14249,6 +14649,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXcomposite.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14290,6 +14691,7 @@ events:
     names:
       - "Xcursor"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14326,6 +14728,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14341,6 +14744,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXcursor.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14382,6 +14786,7 @@ events:
     names:
       - "Xdamage"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14418,6 +14823,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14433,6 +14839,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXdamage.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14474,6 +14881,7 @@ events:
     names:
       - "Xdmcp"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14510,6 +14918,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14525,6 +14934,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXdmcp.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14566,6 +14976,7 @@ events:
     names:
       - "Xext"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14602,6 +15013,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14617,6 +15029,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXext.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14658,6 +15071,7 @@ events:
     names:
       - "Xfixes"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14694,6 +15108,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14709,6 +15124,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXfixes.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14750,6 +15166,7 @@ events:
     names:
       - "Xft"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14786,6 +15203,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14801,6 +15219,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXft.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14842,6 +15261,7 @@ events:
     names:
       - "Xi"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14878,6 +15298,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14893,6 +15314,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXi.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -14934,6 +15356,7 @@ events:
     names:
       - "Xinerama"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14970,6 +15393,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -14985,6 +15409,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXinerama.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15026,6 +15451,7 @@ events:
     names:
       - "xkbcommon"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15062,6 +15488,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15077,6 +15504,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libxkbcommon.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15118,6 +15546,7 @@ events:
     names:
       - "xkbcommon-x11"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15154,6 +15583,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15192,6 +15622,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15233,6 +15664,7 @@ events:
     names:
       - "xkbfile"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15269,6 +15701,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15284,6 +15717,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libxkbfile.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15325,6 +15759,7 @@ events:
     names:
       - "Xmu"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15361,6 +15796,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15376,6 +15812,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXmu.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15417,6 +15854,7 @@ events:
     names:
       - "Xpm"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15453,6 +15891,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15468,6 +15907,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXpm.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15509,6 +15949,7 @@ events:
     names:
       - "Xpresent"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15545,6 +15986,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15583,6 +16025,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15624,6 +16067,7 @@ events:
     names:
       - "Xrandr"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15660,6 +16104,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15675,6 +16120,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXrandr.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15716,6 +16162,7 @@ events:
     names:
       - "Xrender"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15752,6 +16199,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15767,6 +16215,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXrender.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15808,6 +16257,7 @@ events:
     names:
       - "XRes"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15844,6 +16294,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15859,6 +16310,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXRes.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15900,6 +16352,7 @@ events:
     names:
       - "Xss"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15936,6 +16389,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -15951,6 +16405,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXss.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -15992,6 +16447,7 @@ events:
     names:
       - "Xt"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16028,6 +16484,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16043,6 +16500,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXt.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -16084,6 +16542,7 @@ events:
     names:
       - "Xtst"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16120,6 +16579,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16135,6 +16595,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXtst.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -16176,6 +16637,7 @@ events:
     names:
       - "Xv"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16212,6 +16674,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16227,6 +16690,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXv.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -16268,6 +16732,7 @@ events:
     names:
       - "Xxf86misc"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16304,6 +16769,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16342,6 +16808,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -16383,6 +16850,7 @@ events:
     names:
       - "Xxf86vm"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16419,6 +16887,7 @@ events:
       - "/usr/openwin/lib/"
       - "/opt/X11/lib/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -16434,6 +16903,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libXxf86vm.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -16476,6 +16946,10 @@ events:
     names:
       - "ft2build.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/include/freetype2/"
+      - "/home/jacob/.local/bin/include/"
+      - "/home/jacob/.local/bin/freetype2/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/include/freetype2/"
       - "/usr/local/sbin/include/"
       - "/usr/local/sbin/freetype2/"
@@ -16597,6 +17071,10 @@ events:
       - "/usr/include/X11/freetype2/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/home/jacob/.local/bin/include/freetype2/ft2build.h"
+      - "/home/jacob/.local/bin/include/ft2build.h"
+      - "/home/jacob/.local/bin/freetype2/ft2build.h"
+      - "/home/jacob/.local/bin/ft2build.h"
       - "/usr/local/sbin/include/freetype2/ft2build.h"
       - "/usr/local/sbin/include/ft2build.h"
       - "/usr/local/sbin/freetype2/ft2build.h"
@@ -16654,6 +17132,7 @@ events:
     found: "/usr/include/freetype2/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -16697,6 +17176,10 @@ events:
       - "freetype/config/ftheader.h"
       - "config/ftheader.h"
     candidate_directories:
+      - "/home/jacob/.local/bin/include/freetype2/"
+      - "/home/jacob/.local/bin/include/"
+      - "/home/jacob/.local/bin/freetype2/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/include/freetype2/"
       - "/usr/local/sbin/include/"
       - "/usr/local/sbin/freetype2/"
@@ -16818,6 +17301,10 @@ events:
       - "/usr/include/X11/freetype2/"
       - "/usr/include/X11/"
     searched_directories:
+      - "/home/jacob/.local/bin/include/freetype2/freetype/config/ftheader.h"
+      - "/home/jacob/.local/bin/include/freetype/config/ftheader.h"
+      - "/home/jacob/.local/bin/freetype2/freetype/config/ftheader.h"
+      - "/home/jacob/.local/bin/freetype/config/ftheader.h"
       - "/usr/local/sbin/include/freetype2/freetype/config/ftheader.h"
       - "/usr/local/sbin/include/freetype/config/ftheader.h"
       - "/usr/local/sbin/freetype2/freetype/config/ftheader.h"
@@ -16875,6 +17362,7 @@ events:
     found: "/usr/include/freetype2/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -16919,6 +17407,8 @@ events:
       - "libfreetype"
       - "freetype219"
     candidate_directories:
+      - "/home/jacob/.local/bin/lib/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/lib/"
@@ -16980,6 +17470,8 @@ events:
       - "/usr/lib/X11/lib/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/home/jacob/.local/bin/lib/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/lib/"
@@ -17008,6 +17500,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libfreetype.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17052,6 +17545,8 @@ events:
       - "libfreetyped"
       - "freetype219d"
     candidate_directories:
+      - "/home/jacob/.local/bin/lib/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/lib/"
@@ -17113,6 +17608,8 @@ events:
       - "/usr/lib/X11/lib/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/home/jacob/.local/bin/lib/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/lib/"
@@ -17173,6 +17670,8 @@ events:
       - "/opt/"
       - "/usr/lib/X11/lib/"
       - "/usr/lib/X11/"
+      - "/home/jacob/.local/bin/lib/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/lib/"
@@ -17233,6 +17732,8 @@ events:
       - "/opt/"
       - "/usr/lib/X11/lib/"
       - "/usr/lib/X11/"
+      - "/home/jacob/.local/bin/lib/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/lib/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/lib/"
@@ -17296,6 +17797,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17346,6 +17848,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libfontconfig.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17396,6 +17899,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libfreetype.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17442,6 +17946,7 @@ events:
       - "/usr/include/freetype2/"
       - "/usr/include/libpng16/"
       - "/usr/X11/include/"
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -17475,6 +17980,7 @@ events:
     found: "/usr/include/"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17517,6 +18023,7 @@ events:
     names:
       - "fontconfig"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -17549,6 +18056,7 @@ events:
       - "/usr/lib/X11/"
       - "/usr/lib/x86_64-linux-gnu/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -17564,6 +18072,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libfontconfig.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17595,28 +18104,28 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-VQvMqd"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-VQvMqd"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-VQvMqd'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7f0b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f7f0b.dir/build.make CMakeFiles/cmTC_f7f0b.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf'
-        Building C object CMakeFiles/cmTC_f7f0b.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_f7f0b.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf/CheckFunctionExists.c
-        Linking C executable cmTC_f7f0b
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7f0b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_f7f0b.dir/CheckFunctionExists.c.o -o cmTC_f7f0b  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-GMlUaf'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe865/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fe865.dir/build.make CMakeFiles/cmTC_fe865.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-VQvMqd'
+        Building C object CMakeFiles/cmTC_fe865.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_fe865.dir/CheckFunctionExists.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-VQvMqd/CheckFunctionExists.c
+        Linking C executable cmTC_fe865
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe865.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_fe865.dir/CheckFunctionExists.c.o -o cmTC_fe865  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-VQvMqd'
         
       exitCode: 0
   -
@@ -17628,28 +18137,28 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-afJFnf"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-afJFnf"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-afJFnf'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de053/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_de053.dir/build.make CMakeFiles/cmTC_de053.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg'
-        Building C object CMakeFiles/cmTC_de053.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_de053.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg/CheckFunctionExists.c
-        Linking C executable cmTC_de053
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de053.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_de053.dir/CheckFunctionExists.c.o -o cmTC_de053
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-ryztPg'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_023ea/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_023ea.dir/build.make CMakeFiles/cmTC_023ea.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-afJFnf'
+        Building C object CMakeFiles/cmTC_023ea.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_023ea.dir/CheckFunctionExists.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-afJFnf/CheckFunctionExists.c
+        Linking C executable cmTC_023ea
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_023ea.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_023ea.dir/CheckFunctionExists.c.o -o cmTC_023ea
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-afJFnf'
         
       exitCode: 0
   -
@@ -17661,28 +18170,28 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-aYFrLe"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-aYFrLe"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-aYFrLe'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83f8b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_83f8b.dir/build.make CMakeFiles/cmTC_83f8b.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg'
-        Building C object CMakeFiles/cmTC_83f8b.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_83f8b.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg/CheckFunctionExists.c
-        Linking C executable cmTC_83f8b
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83f8b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_83f8b.dir/CheckFunctionExists.c.o -o cmTC_83f8b
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-gUBrwg'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2263/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f2263.dir/build.make CMakeFiles/cmTC_f2263.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-aYFrLe'
+        Building C object CMakeFiles/cmTC_f2263.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_f2263.dir/CheckFunctionExists.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-aYFrLe/CheckFunctionExists.c
+        Linking C executable cmTC_f2263
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2263.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_f2263.dir/CheckFunctionExists.c.o -o cmTC_f2263
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-aYFrLe'
         
       exitCode: 0
   -
@@ -17694,28 +18203,28 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-WqAldc"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-WqAldc"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-WqAldc'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9290b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9290b.dir/build.make CMakeFiles/cmTC_9290b.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc'
-        Building C object CMakeFiles/cmTC_9290b.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_9290b.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc/CheckFunctionExists.c
-        Linking C executable cmTC_9290b
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9290b.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_9290b.dir/CheckFunctionExists.c.o -o cmTC_9290b
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-m4SDRc'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a51e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a51e.dir/build.make CMakeFiles/cmTC_6a51e.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-WqAldc'
+        Building C object CMakeFiles/cmTC_6a51e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_6a51e.dir/CheckFunctionExists.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-WqAldc/CheckFunctionExists.c
+        Linking C executable cmTC_6a51e
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a51e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_6a51e.dir/CheckFunctionExists.c.o -o cmTC_6a51e
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-WqAldc'
         
       exitCode: 0
   -
@@ -17727,28 +18236,28 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-N8ntZc"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-N8ntZc"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-N8ntZc'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c9990/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c9990.dir/build.make CMakeFiles/cmTC_c9990.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch'
-        Building C object CMakeFiles/cmTC_c9990.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_c9990.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch/CheckFunctionExists.c
-        Linking C executable cmTC_c9990
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9990.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_c9990.dir/CheckFunctionExists.c.o -o cmTC_c9990
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-VMu2ch'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9ef4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b9ef4.dir/build.make CMakeFiles/cmTC_b9ef4.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-N8ntZc'
+        Building C object CMakeFiles/cmTC_b9ef4.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_b9ef4.dir/CheckFunctionExists.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-N8ntZc/CheckFunctionExists.c
+        Linking C executable cmTC_b9ef4
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ef4.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_b9ef4.dir/CheckFunctionExists.c.o -o cmTC_b9ef4
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-N8ntZc'
         
       exitCode: 0
   -
@@ -17760,28 +18269,28 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf"
-      binary: "/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf"
+      source: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-wKD0Xd"
+      binary: "/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-wKD0Xd"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/jacob/source/ubiquity/glmTest/external/glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "/home/jacob/source/pacman2/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf'
+        Change Dir: '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-wKD0Xd'
         
-        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9239/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b9239.dir/build.make CMakeFiles/cmTC_b9239.dir/build
-        gmake[1]: Entering directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf'
-        Building C object CMakeFiles/cmTC_b9239.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_b9239.dir/CheckFunctionExists.c.o -c /home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf/CheckFunctionExists.c
-        Linking C executable cmTC_b9239
-        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9239.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b9239.dir/CheckFunctionExists.c.o -o cmTC_b9239  -lICE
-        gmake[1]: Leaving directory '/home/jacob/source/ubiquity/glmTest/build/CMakeFiles/CMakeScratch/TryCompile-DfyrBf'
+        Run Build Command(s): /snap/cmake/1509/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6519/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b6519.dir/build.make CMakeFiles/cmTC_b6519.dir/build
+        gmake[1]: Entering directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-wKD0Xd'
+        Building C object CMakeFiles/cmTC_b6519.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_b6519.dir/CheckFunctionExists.c.o -c /home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-wKD0Xd/CheckFunctionExists.c
+        Linking C executable cmTC_b6519
+        /snap/cmake/1509/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6519.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b6519.dir/CheckFunctionExists.c.o -o cmTC_b6519  -lICE
+        gmake[1]: Leaving directory '/home/jacob/source/pacman2/build/CMakeFiles/CMakeScratch/TryCompile-wKD0Xd'
         
       exitCode: 0
   -
@@ -17802,6 +18311,7 @@ events:
     names:
       - "rt"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -17833,6 +18343,7 @@ events:
       - "/opt/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -17848,6 +18359,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/librt.a"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17888,6 +18400,7 @@ events:
     names:
       - "m"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -17919,6 +18432,7 @@ events:
       - "/opt/"
       - "/usr/lib/X11/"
     searched_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -17934,6 +18448,7 @@ events:
     found: "/usr/lib/x86_64-linux-gnu/libm.so"
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"
@@ -17976,6 +18491,7 @@ events:
     names:
       - "doxygen"
     candidate_directories:
+      - "/home/jacob/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/sbin/"
@@ -18010,6 +18526,7 @@ events:
       - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
       - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
     searched_directories:
+      - "/home/jacob/.local/bin/doxygen"
       - "/usr/local/sbin/doxygen"
       - "/usr/local/bin/doxygen"
       - "/usr/sbin/doxygen"
@@ -18046,6 +18563,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/jacob/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/sbin"

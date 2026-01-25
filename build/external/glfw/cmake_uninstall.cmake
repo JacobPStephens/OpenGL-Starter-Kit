@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/jacob/source/ubiquity/glmTest/build/external/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/jacob/source/ubiquity/glmTest/build/external/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/jacob/source/pacman2/build/external/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/jacob/source/pacman2/build/external/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/jacob/source/ubiquity/glmTest/build/external/glfw/install_manifest.txt" files)
+file(READ "/home/jacob/source/pacman2/build/external/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

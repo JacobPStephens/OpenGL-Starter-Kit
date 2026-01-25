@@ -2,7 +2,16 @@ game: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
+  CMakeFiles/game.dir/Eyes.cpp.o \
+  CMakeFiles/game.dir/Game.cpp.o \
+  CMakeFiles/game.dir/GameObject.cpp.o \
+  CMakeFiles/game.dir/Ghost.cpp.o \
   CMakeFiles/game.dir/main.cpp.o \
+  CMakeFiles/game.dir/PlayerObject.cpp.o \
+  CMakeFiles/game.dir/ResourceManager.cpp.o \
+  CMakeFiles/game.dir/Shader.cpp.o \
+  CMakeFiles/game.dir/SpriteRenderer.cpp.o \
+  CMakeFiles/game.dir/Texture2D.cpp.o \
   CMakeFiles/game.dir/__/external/glad/src/glad.c.o \
   ../external/glad/libglad.a \
   ../external/glfw/src/libglfw3.a \
@@ -34,8 +43,7 @@ game: \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o \
-  /lib64/ld-linux-x86-64.so.2 \
-  /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1
+  /lib64/ld-linux-x86-64.so.2
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o:
 
@@ -43,7 +51,25 @@ game: \
 
 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
 
+CMakeFiles/game.dir/Eyes.cpp.o:
+
+CMakeFiles/game.dir/Game.cpp.o:
+
+CMakeFiles/game.dir/GameObject.cpp.o:
+
+CMakeFiles/game.dir/Ghost.cpp.o:
+
 CMakeFiles/game.dir/main.cpp.o:
+
+CMakeFiles/game.dir/PlayerObject.cpp.o:
+
+CMakeFiles/game.dir/ResourceManager.cpp.o:
+
+CMakeFiles/game.dir/Shader.cpp.o:
+
+CMakeFiles/game.dir/SpriteRenderer.cpp.o:
+
+CMakeFiles/game.dir/Texture2D.cpp.o:
 
 CMakeFiles/game.dir/__/external/glad/src/glad.c.o:
 
@@ -108,5 +134,3 @@ CMakeFiles/game.dir/__/external/glad/src/glad.c.o:
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o:
 
 /lib64/ld-linux-x86-64.so.2:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libgcc_s.so.1:

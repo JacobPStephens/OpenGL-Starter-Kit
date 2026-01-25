@@ -53,10 +53,10 @@ RM = /snap/cmake/1509/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacob/source/ubiquity/glmTest
+CMAKE_SOURCE_DIR = /home/jacob/source/pacman2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacob/source/ubiquity/glmTest/build
+CMAKE_BINARY_DIR = /home/jacob/source/pacman2/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include external/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include external/glfw/CMakeFiles/uninstall.dir/progress.make
 
 external/glfw/CMakeFiles/uninstall:
-	cd /home/jacob/source/ubiquity/glmTest/build/external/glfw && /snap/cmake/1509/bin/cmake -P /home/jacob/source/ubiquity/glmTest/build/external/glfw/cmake_uninstall.cmake
+	cd /home/jacob/source/pacman2/build/external/glfw && /snap/cmake/1509/bin/cmake -P /home/jacob/source/pacman2/build/external/glfw/cmake_uninstall.cmake
 
 external/glfw/CMakeFiles/uninstall.dir/codegen:
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/codegen
@@ -81,10 +81,10 @@ external/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/build
 
 external/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/jacob/source/ubiquity/glmTest/build/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/jacob/source/pacman2/build/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/clean
 
 external/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/source/ubiquity/glmTest /home/jacob/source/ubiquity/glmTest/external/glfw /home/jacob/source/ubiquity/glmTest/build /home/jacob/source/ubiquity/glmTest/build/external/glfw /home/jacob/source/ubiquity/glmTest/build/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
+	cd /home/jacob/source/pacman2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/source/pacman2 /home/jacob/source/pacman2/external/glfw /home/jacob/source/pacman2/build /home/jacob/source/pacman2/build/external/glfw /home/jacob/source/pacman2/build/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /snap/cmake/1509/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacob/source/ubiquity/glmTest
+CMAKE_SOURCE_DIR = /home/jacob/source/pacman2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacob/source/ubiquity/glmTest/build
+CMAKE_BINARY_DIR = /home/jacob/source/pacman2/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include external/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include external/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 external/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jacob/source/ubiquity/glmTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/jacob/source/ubiquity/glmTest/external/glfw/src && /snap/cmake/1509/bin/cmake -P /home/jacob/source/ubiquity/glmTest/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jacob/source/pacman2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/jacob/source/pacman2/external/glfw/src && /snap/cmake/1509/bin/cmake -P /home/jacob/source/pacman2/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 external/glfw/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/codegen
@@ -82,10 +82,10 @@ external/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/build
 
 external/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/jacob/source/ubiquity/glmTest/build/external/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/jacob/source/pacman2/build/external/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 external/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/jacob/source/ubiquity/glmTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/source/ubiquity/glmTest /home/jacob/source/ubiquity/glmTest/external/glfw/src /home/jacob/source/ubiquity/glmTest/build /home/jacob/source/ubiquity/glmTest/build/external/glfw/src /home/jacob/source/ubiquity/glmTest/build/external/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)" update_mappings
+	cd /home/jacob/source/pacman2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jacob/source/pacman2 /home/jacob/source/pacman2/external/glfw/src /home/jacob/source/pacman2/build /home/jacob/source/pacman2/build/external/glfw/src /home/jacob/source/pacman2/build/external/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)" update_mappings
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/depend
 
