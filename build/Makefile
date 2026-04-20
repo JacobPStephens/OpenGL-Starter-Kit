@@ -57,10 +57,10 @@ RM = /snap/cmake/1530/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacob/proppa/source/lxpaint
+CMAKE_SOURCE_DIR = /home/jacob/proppa/source/opengl_kit_v2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacob/proppa/source/lxpaint/build
+CMAKE_BINARY_DIR = /home/jacob/proppa/source/opengl_kit_v2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/lxpaint/build/CMakeFiles /home/jacob/proppa/source/lxpaint/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/opengl_kit_v2/build/CMakeFiles /home/jacob/proppa/source/opengl_kit_v2/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/lxpaint/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/opengl_kit_v2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -214,17 +214,17 @@ update_mappings/fast:
 .PHONY : update_mappings/fast
 
 #=============================================================================
-# Target rules for targets named game
+# Target rules for targets named app
 
 # Build rule for target.
-game: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game
-.PHONY : game
+app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
+.PHONY : app
 
 # fast build rule for target.
-game/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/build
-.PHONY : game/fast
+app/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
+.PHONY : app/fast
 
 # Help Target
 help:
@@ -240,7 +240,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
-	@echo "... game"
+	@echo "... app"
 	@echo "... glad"
 	@echo "... glfw"
 .PHONY : help

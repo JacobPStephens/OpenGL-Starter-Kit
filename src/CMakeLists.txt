@@ -1,14 +1,20 @@
-add_executable(game)
+add_executable(app)
 
-target_sources(game
+target_sources(app
     PRIVATE
         ./main.cpp
-        ./LXPaint.cpp
+        ./App.cpp
+        ./Object.cpp
+        ./Renderer.cpp
+        ./ResourceManager.cpp
+        ./Shader.cpp
+        ./Texture.cpp
 )
 
-target_link_libraries(game
+target_link_libraries(app
     PRIVATE
         glad
         glm::glm
         glfw
+        stb
 )

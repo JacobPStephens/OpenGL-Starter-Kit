@@ -1,4 +1,4 @@
-# Install script for directory: /home/jacob/proppa/source/lxpaint/src
+# Install script for directory: /home/jacob/proppa/source/opengl_kit_v2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/jacob/proppa/source/lxpaint/build/src/install_local_manifest.txt"
+  file(WRITE "/home/jacob/proppa/source/opengl_kit_v2/build/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

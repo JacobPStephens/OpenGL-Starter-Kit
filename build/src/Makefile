@@ -57,10 +57,10 @@ RM = /snap/cmake/1530/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jacob/proppa/source/lxpaint
+CMAKE_SOURCE_DIR = /home/jacob/proppa/source/opengl_kit_v2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jacob/proppa/source/lxpaint/build
+CMAKE_BINARY_DIR = /home/jacob/proppa/source/opengl_kit_v2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jacob/proppa/source/lxpaint/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/lxpaint/build/CMakeFiles /home/jacob/proppa/source/lxpaint/build/src//CMakeFiles/progress.marks
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/lxpaint/build/CMakeFiles 0
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/opengl_kit_v2/build/CMakeFiles /home/jacob/proppa/source/opengl_kit_v2/build/src//CMakeFiles/progress.marks
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jacob/proppa/source/opengl_kit_v2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,63 +148,183 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jacob/proppa/source/lxpaint/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/game.dir/rule:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/game.dir/rule
-.PHONY : src/CMakeFiles/game.dir/rule
+src/CMakeFiles/app.dir/rule:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/app.dir/rule
+.PHONY : src/CMakeFiles/app.dir/rule
 
 # Convenience name for target.
-game: src/CMakeFiles/game.dir/rule
-.PHONY : game
+app: src/CMakeFiles/app.dir/rule
+.PHONY : app
 
 # fast build rule for target.
-game/fast:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/build
-.PHONY : game/fast
+app/fast:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/build
+.PHONY : app/fast
 
-LXPaint.o: LXPaint.cpp.o
-.PHONY : LXPaint.o
+App.o: App.cpp.o
+.PHONY : App.o
 
 # target to build an object file
-LXPaint.cpp.o:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/LXPaint.cpp.o
-.PHONY : LXPaint.cpp.o
+App.cpp.o:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/App.cpp.o
+.PHONY : App.cpp.o
 
-LXPaint.i: LXPaint.cpp.i
-.PHONY : LXPaint.i
+App.i: App.cpp.i
+.PHONY : App.i
 
 # target to preprocess a source file
-LXPaint.cpp.i:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/LXPaint.cpp.i
-.PHONY : LXPaint.cpp.i
+App.cpp.i:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/App.cpp.i
+.PHONY : App.cpp.i
 
-LXPaint.s: LXPaint.cpp.s
-.PHONY : LXPaint.s
+App.s: App.cpp.s
+.PHONY : App.s
 
 # target to generate assembly for a file
-LXPaint.cpp.s:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/LXPaint.cpp.s
-.PHONY : LXPaint.cpp.s
+App.cpp.s:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/App.cpp.s
+.PHONY : App.cpp.s
+
+Object.o: Object.cpp.o
+.PHONY : Object.o
+
+# target to build an object file
+Object.cpp.o:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Object.cpp.o
+.PHONY : Object.cpp.o
+
+Object.i: Object.cpp.i
+.PHONY : Object.i
+
+# target to preprocess a source file
+Object.cpp.i:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Object.cpp.i
+.PHONY : Object.cpp.i
+
+Object.s: Object.cpp.s
+.PHONY : Object.s
+
+# target to generate assembly for a file
+Object.cpp.s:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Object.cpp.s
+.PHONY : Object.cpp.s
+
+Renderer.o: Renderer.cpp.o
+.PHONY : Renderer.o
+
+# target to build an object file
+Renderer.cpp.o:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.o
+.PHONY : Renderer.cpp.o
+
+Renderer.i: Renderer.cpp.i
+.PHONY : Renderer.i
+
+# target to preprocess a source file
+Renderer.cpp.i:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.i
+.PHONY : Renderer.cpp.i
+
+Renderer.s: Renderer.cpp.s
+.PHONY : Renderer.s
+
+# target to generate assembly for a file
+Renderer.cpp.s:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Renderer.cpp.s
+.PHONY : Renderer.cpp.s
+
+ResourceManager.o: ResourceManager.cpp.o
+.PHONY : ResourceManager.o
+
+# target to build an object file
+ResourceManager.cpp.o:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/ResourceManager.cpp.o
+.PHONY : ResourceManager.cpp.o
+
+ResourceManager.i: ResourceManager.cpp.i
+.PHONY : ResourceManager.i
+
+# target to preprocess a source file
+ResourceManager.cpp.i:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/ResourceManager.cpp.i
+.PHONY : ResourceManager.cpp.i
+
+ResourceManager.s: ResourceManager.cpp.s
+.PHONY : ResourceManager.s
+
+# target to generate assembly for a file
+ResourceManager.cpp.s:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/ResourceManager.cpp.s
+.PHONY : ResourceManager.cpp.s
+
+Shader.o: Shader.cpp.o
+.PHONY : Shader.o
+
+# target to build an object file
+Shader.cpp.o:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Shader.cpp.o
+.PHONY : Shader.cpp.o
+
+Shader.i: Shader.cpp.i
+.PHONY : Shader.i
+
+# target to preprocess a source file
+Shader.cpp.i:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Shader.cpp.i
+.PHONY : Shader.cpp.i
+
+Shader.s: Shader.cpp.s
+.PHONY : Shader.s
+
+# target to generate assembly for a file
+Shader.cpp.s:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Shader.cpp.s
+.PHONY : Shader.cpp.s
+
+Texture.o: Texture.cpp.o
+.PHONY : Texture.o
+
+# target to build an object file
+Texture.cpp.o:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Texture.cpp.o
+.PHONY : Texture.cpp.o
+
+Texture.i: Texture.cpp.i
+.PHONY : Texture.i
+
+# target to preprocess a source file
+Texture.cpp.i:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Texture.cpp.i
+.PHONY : Texture.cpp.i
+
+Texture.s: Texture.cpp.s
+.PHONY : Texture.s
+
+# target to generate assembly for a file
+Texture.cpp.s:
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/Texture.cpp.s
+.PHONY : Texture.cpp.s
 
 __/external/glad/src/glad.o: __/external/glad/src/glad.c.o
 .PHONY : __/external/glad/src/glad.o
 
 # target to build an object file
 __/external/glad/src/glad.c.o:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.o
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/__/external/glad/src/glad.c.o
 .PHONY : __/external/glad/src/glad.c.o
 
 __/external/glad/src/glad.i: __/external/glad/src/glad.c.i
@@ -212,7 +332,7 @@ __/external/glad/src/glad.i: __/external/glad/src/glad.c.i
 
 # target to preprocess a source file
 __/external/glad/src/glad.c.i:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.i
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/__/external/glad/src/glad.c.i
 .PHONY : __/external/glad/src/glad.c.i
 
 __/external/glad/src/glad.s: __/external/glad/src/glad.c.s
@@ -220,7 +340,7 @@ __/external/glad/src/glad.s: __/external/glad/src/glad.c.s
 
 # target to generate assembly for a file
 __/external/glad/src/glad.c.s:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/__/external/glad/src/glad.c.s
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/__/external/glad/src/glad.c.s
 .PHONY : __/external/glad/src/glad.c.s
 
 main.o: main.cpp.o
@@ -228,7 +348,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.o
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -236,7 +356,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.i
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -244,7 +364,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/game.dir/build.make src/CMakeFiles/game.dir/main.cpp.s
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/app.dir/build.make src/CMakeFiles/app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -259,10 +379,25 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... game"
-	@echo "... LXPaint.o"
-	@echo "... LXPaint.i"
-	@echo "... LXPaint.s"
+	@echo "... app"
+	@echo "... App.o"
+	@echo "... App.i"
+	@echo "... App.s"
+	@echo "... Object.o"
+	@echo "... Object.i"
+	@echo "... Object.s"
+	@echo "... Renderer.o"
+	@echo "... Renderer.i"
+	@echo "... Renderer.s"
+	@echo "... ResourceManager.o"
+	@echo "... ResourceManager.i"
+	@echo "... ResourceManager.s"
+	@echo "... Shader.o"
+	@echo "... Shader.i"
+	@echo "... Shader.s"
+	@echo "... Texture.o"
+	@echo "... Texture.i"
+	@echo "... Texture.s"
 	@echo "... __/external/glad/src/glad.o"
 	@echo "... __/external/glad/src/glad.i"
 	@echo "... __/external/glad/src/glad.s"
@@ -280,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jacob/proppa/source/lxpaint/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jacob/proppa/source/opengl_kit_v2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,10 +1,15 @@
-game: \
+app: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
-  CMakeFiles/game.dir/main.cpp.o \
-  CMakeFiles/game.dir/LXPaint.cpp.o \
-  CMakeFiles/game.dir/__/external/glad/src/glad.c.o \
+  CMakeFiles/app.dir/main.cpp.o \
+  CMakeFiles/app.dir/App.cpp.o \
+  CMakeFiles/app.dir/Object.cpp.o \
+  CMakeFiles/app.dir/Renderer.cpp.o \
+  CMakeFiles/app.dir/ResourceManager.cpp.o \
+  CMakeFiles/app.dir/Shader.cpp.o \
+  CMakeFiles/app.dir/Texture.cpp.o \
+  CMakeFiles/app.dir/__/external/glad/src/glad.c.o \
   ../external/glad/libglad.a \
   ../external/glfw/src/libglfw3.a \
   /usr/lib/x86_64-linux-gnu/librt.a \
@@ -43,11 +48,21 @@ game: \
 
 /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o:
 
-CMakeFiles/game.dir/main.cpp.o:
+CMakeFiles/app.dir/main.cpp.o:
 
-CMakeFiles/game.dir/LXPaint.cpp.o:
+CMakeFiles/app.dir/App.cpp.o:
 
-CMakeFiles/game.dir/__/external/glad/src/glad.c.o:
+CMakeFiles/app.dir/Object.cpp.o:
+
+CMakeFiles/app.dir/Renderer.cpp.o:
+
+CMakeFiles/app.dir/ResourceManager.cpp.o:
+
+CMakeFiles/app.dir/Shader.cpp.o:
+
+CMakeFiles/app.dir/Texture.cpp.o:
+
+CMakeFiles/app.dir/__/external/glad/src/glad.c.o:
 
 ../external/glad/libglad.a:
 
