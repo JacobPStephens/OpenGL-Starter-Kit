@@ -1,8 +1,11 @@
-A starter kit for OpenGL development
-To build the project, run cmake --build build. This will create an executable "app" located at build/src/app.
+# A starter kit for OpenGL development
+
+A barebones engine for games and software using OpenGL and C++. To get you started, contains:
+    * A demo object rendered to the screen with a position, size, rotation, and texture. 
+    * Basic input handling of keyboard and mouse 
 
 This branch is a more comprehensive version of the original starter kit. This branch includes the 
-following additional classes: 
+following classes: 
     * App
     * Object
     * Renderer
@@ -10,9 +13,7 @@ following additional classes:
     * Shader
     * Texture
 
-To get you started, this project contains
-    * A demo object rendered to the screen with a position, size, rotation, and texture. 
-    * Basic input handling of keyboard and mouse 
+To build the project, run cmake --build build. This will create an executable "app" located at build/src/app.
 
 Additional resources on included libraries:
 - OpenGL https://learnopengl.com/, https://open.gl
@@ -25,4 +26,3 @@ glad version 3.3 core
 glm version 1.0.3
 glfw version 3.4 
 stb version 2.30
-
