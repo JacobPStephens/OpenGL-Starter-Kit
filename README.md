@@ -1,17 +1,19 @@
 # A starter kit for OpenGL development
 
-A barebones engine for games and software using OpenGL and C++. To get you started, contains:
-    * A demo object rendered to the screen with a position, size, rotation, and texture. 
-    * Basic input handling of keyboard and mouse 
+A barebones engine for games and software using OpenGL and C++. To get you started, contains
+
+    - A demo object rendered to the screen with a position, size, rotation, and texture. 
+    - Basic input handling of keyboard and mouse 
 
 This branch is a more comprehensive version of the original starter kit. This branch includes the 
 following classes: 
-    * App
-    * Object
-    * Renderer
-    * ResourceManager
-    * Shader
-    * Texture
+
+    - App
+    - Object
+    - Renderer
+    - ResourceManager
+    - Shader
+    - Texture
 
 To build the project, run cmake --build build. This will create an executable "app" located at build/src/app.
 
