@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jacob/proppa/source/opengl_kit_v2/build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

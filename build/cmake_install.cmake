@@ -44,6 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/jacob/proppa/source/opengl_kit_v2/build/tests/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/jacob/proppa/source/opengl_kit_v2/build/external/glad/cmake_install.cmake")
 endif()
 
