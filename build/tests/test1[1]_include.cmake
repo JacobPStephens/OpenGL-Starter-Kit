@@ -1,0 +1,5 @@
+if(EXISTS "/home/jacob/proppa/source/opengl_kit_v2/build/tests/test1[1]_tests.cmake")
+  include("/home/jacob/proppa/source/opengl_kit_v2/build/tests/test1[1]_tests.cmake")
+else()
+  add_test(test1_NOT_BUILT test1_NOT_BUILT)
+endif()

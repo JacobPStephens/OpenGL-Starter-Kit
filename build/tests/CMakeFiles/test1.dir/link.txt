@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/test1.dir/link.d CMakeFiles/test1.dir/test1.cpp.o -o test1  ../lib/libgtest_main.a ../lib/libgtest.a
