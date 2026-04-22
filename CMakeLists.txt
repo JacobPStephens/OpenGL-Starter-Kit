@@ -5,6 +5,7 @@ project(opengl_kit_v2)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+add_subdirectory(tests)
 add_subdirectory(./external/glad)
 add_subdirectory(./external/glm)
 add_subdirectory(./external/glfw)
