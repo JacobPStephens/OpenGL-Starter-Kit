@@ -37,7 +37,6 @@ int main(void)
         std:: cout << "glad failed init " << std::endl;
     }
 
-
     glfwSetKeyCallback(window, keyCallback);
     glfwSetCursorPosCallback(window, cursorPosCallback);
     glfwSetMouseButtonCallback(window, mouseButtonCallback);

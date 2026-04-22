@@ -13,5 +13,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/jacob/proppa/source/opengl_kit_v2/external/glad/include -I/home/jacob/proppa/source/opengl_kit_v2/external/glm -I/home/jacob/proppa/source/opengl_kit_v2/external/glfw/include -I/home/jacob/proppa/source/opengl_kit_v2/external/stb
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++17
 

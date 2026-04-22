@@ -34,7 +34,7 @@ void App::setupShaders() {
 }
 
 void App::update(float dt) {
-    this->printMouseInfo();
+    // this->printMouseInfo();
 }
 
 void App::render() {
