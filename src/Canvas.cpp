@@ -25,15 +25,22 @@ void Canvas::drawLine(glm::ivec2 p1, glm::ivec2 p2) {
     but not exactly. (last y pixel might not get included) \    
     ";
     float slope = (float)deltaY / (float)deltaX;
-    printf("slope= %f\n", slope);
+    // printf("slope= %f\n", slope);
 
     int minX = std::min(p1.x, p2.x);
     int maxX = std::max(p1.x, p2.x);
     int minY = std::min(p1.y, p2.y);
+    int maxY = std::max(p1.y, p2.y);
     // assert(slope > 0.0f);
     // assert(abs(deltaX) < abs(deltaY));
 
-    float y = minY; 
+    float y;
+    if (slope > 0) {
+        y = minY; 
+    }
+    else {
+        y = maxY;
+    }
     int prevTruncY = minY; 
     int truncY; 
     for (int x = minX; x <= maxX; x++) {
@@ -56,7 +63,7 @@ void Canvas::drawVerticalLine(glm::ivec2 p1, glm::ivec2 p2) {
     }
 }
 void Canvas::createPixel(glm::ivec2 pos) {
-    printf("pixel @ %d %d\n", pos.x, pos.y);
+    // printf("pixel @ %d %d\n", pos.x, pos.y);
     this->pixelObjects[pos.y][pos.x] = new Object(
         glm::vec2(pos.x, pos.y),
         glm::vec2(1.0f),
