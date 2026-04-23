@@ -1,4 +1,5 @@
 #pragma once
+#include <glm/glm.hpp>
 #include "../util.h"
 
 class Canvas;
@@ -25,6 +26,7 @@ class App {
         Renderer* renderer;
         Canvas* canvas;
 
+        glm::vec2 prevMousePos;
         bool keys[1024];
         struct Mouse {
             float xpos;

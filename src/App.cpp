@@ -19,8 +19,10 @@ void App::initialize() {
     //this->createDemoObject(); 
     this->setupShaders();
     this->renderer = new Renderer(ResourceManager::getShader("sprite"));
-    this->canvas = new Canvas();
     ResourceManager::loadTexture("textures/pixel.png", false, "px");
+    this->canvas = new Canvas();
+    this->prevMousePos = glm::ivec2(0);
+
 
 }
 
@@ -39,16 +41,22 @@ void App::setupShaders() {
 }
 
 void App::update(float dt) {
+    
     if (this->mouse.leftPressed) {
-        this->canvas->modify(this->mouse.xpos, this->mouse.ypos);
+        glm::ivec2 mousePos(this->mouse.xpos, this->mouse.ypos);
+        this->canvas->drawLine(this->prevMousePos, mousePos);
+        this->prevMousePos = mousePos;
     }
+    // glm::vec2 mousePoint(this->mouse.xpos, this->mouse.ypos);
+    // this->canvas->interpolatePoints(mousePoint, this->prevMousePoint);
+    // // this->printMouseInfo();
+    // this->prevMousePoint = mousePoint;
 
-    if (this->mouse.rightPressed) {
-        this->canvas->print();
-    }
+    // if (this->mouse.rightPressed) {
+    //     this->canvas->print();
+    // }
 
     //this->canvas->print();
-    this->printMouseInfo();
 
 }
 

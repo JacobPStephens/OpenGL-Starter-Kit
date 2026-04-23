@@ -152,13 +152,6 @@ src/CMakeFiles/lxpaint.dir/Canvas.cpp.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /home/jacob/proppa/source/lxpaint/src/Canvas.h /usr/include/c++/13/array \
  /usr/include/c++/13/compare \
- /home/jacob/proppa/source/lxpaint/src/../util.h \
- /home/jacob/proppa/source/lxpaint/src/Object.h \
- /home/jacob/proppa/source/lxpaint/external/glad/include/glad/glad.h \
- /home/jacob/proppa/source/lxpaint/external/glad/include/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/glm.hpp \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/detail/_fixes.hpp \
  /usr/include/c++/13/cmath /usr/include/math.h \
@@ -187,7 +180,11 @@ src/CMakeFiles/lxpaint.dir/Canvas.cpp.o: \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/detail/setup.hpp \
  /usr/include/c++/13/cassert /usr/include/assert.h \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/detail/../simd/platform.h \
- /usr/include/c++/13/cstdint /usr/include/c++/13/climits \
+ /usr/include/c++/13/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -352,6 +349,10 @@ src/CMakeFiles/lxpaint.dir/Canvas.cpp.o: \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/detail/type_half.inl \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/integer.hpp \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/detail/func_integer.inl \
+ /home/jacob/proppa/source/lxpaint/src/../util.h \
+ /home/jacob/proppa/source/lxpaint/src/Object.h \
+ /home/jacob/proppa/source/lxpaint/external/glad/include/glad/glad.h \
+ /home/jacob/proppa/source/lxpaint/external/glad/include/KHR/khrplatform.h \
  /home/jacob/proppa/source/lxpaint/src/ResourceManager.h \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/bits/stl_map.h \
