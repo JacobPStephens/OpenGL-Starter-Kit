@@ -18,7 +18,7 @@ class Object {
         std::string name;
 
         Object();
-        Object(glm::vec2 position, glm::vec2 size, const float tileSize, Texture* texture);
+        Object(glm::vec2 position, glm::vec2 size, float rotation, Texture* texture);
 
         void update(float dt);
 

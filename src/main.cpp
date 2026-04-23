@@ -1,18 +1,18 @@
-#include <glad/glad.h>
 #include <iostream>
+
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
 
 #include "App.h" 
 #include "ResourceManager.h"
+#include "../util.h"
 
 void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mode);
 void cursorPosCallback(GLFWwindow* window, double xpos, double ypos);
 void mouseButtonCallback(GLFWwindow* window, int button, int action, int mods);
 
-unsigned int scrWidth = 960;
-unsigned int scrHeight = 540; 
-App* app = new App(scrWidth, scrHeight);
+App* app = new App();
 
 int main(void)
 {
@@ -23,7 +23,7 @@ int main(void)
     if (!glfwInit())
         return -1;
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(scrWidth, scrHeight, "App", NULL, NULL);
+    window = glfwCreateWindow(util::scrWidth, util::scrHeight, "app", NULL, NULL);
     if (!window)
     {
         glfwTerminate();

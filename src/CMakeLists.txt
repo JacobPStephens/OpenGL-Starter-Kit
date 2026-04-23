@@ -1,13 +1,9 @@
-
-#
-
-
-
-add_executable(app)
-target_sources(app
+add_executable(lxpaint)
+target_sources(lxpaint
     PRIVATE
         ./main.cpp
         ./App.cpp
+        ./Canvas.cpp
         ./Object.cpp
         ./Renderer.cpp
         ./ResourceManager.cpp
@@ -15,7 +11,7 @@ target_sources(app
         ./Texture.cpp
 )
 
-target_link_libraries(app
+target_link_libraries(lxpaint
     PRIVATE
         glad
         glm::glm

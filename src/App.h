@@ -1,12 +1,14 @@
 #pragma once
+#include "../util.h"
 
+class Canvas;
 class Object;
 class Renderer;
 
 class App {
     public:
 
-        App(unsigned int scrWidth, unsigned int scrHeight);
+        App();
         ~App();
 
         void initialize();
@@ -15,12 +17,13 @@ class App {
 
         void update(float dt);
         void render();
+        void renderCanvas();
         void processInput();
-
-        unsigned int scrWidth, scrHeight;
+        void printMouseInfo();
 
         Object* demoObject;
         Renderer* renderer;
+        Canvas* canvas;
 
         bool keys[1024];
         struct Mouse {
@@ -30,6 +33,5 @@ class App {
             bool rightPressed;
         } mouse;
 
-        void printMouseInfo();
 
 };

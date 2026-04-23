@@ -1,0 +1,18 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jacob/proppa/source/lxpaint/build/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/tests/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/_deps/googletest-build/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/external/glad/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/external/glm/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/external/glfw/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/external/glfw/src/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/external/glfw/docs/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/external/stb/cmake_install.cmake",
+		"/home/jacob/proppa/source/lxpaint/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

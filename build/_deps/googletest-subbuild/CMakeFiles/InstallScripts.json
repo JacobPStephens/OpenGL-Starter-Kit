@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jacob/proppa/source/lxpaint/build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
