@@ -28,6 +28,7 @@ class Canvas {
         void print(); 
         
         void initPixelGrid();
+        bool firstTouch;
         std::array<std::array<Object*, util::scrWidth>, util::scrHeight> pixelGrid;
 
         std::array<std::array<int, util::scrWidth>, util::scrHeight> canvas;

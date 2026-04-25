@@ -42,13 +42,21 @@ void App::setupShaders() {
 
 void App::update(float dt) {
     // printf("update\n"); 
+    
     if (this->mouse.leftPressed) {
         glm::ivec2 mousePos(this->mouse.xpos, this->mouse.ypos);
-        this->canvas->drawLine(this->prevMousePos, mousePos);
-        // Object* obj = this->canvas->createPixelObject(mousePos);
-        // obj->color = glm::vec4(1.0f);
+        if (this->canvas->firstTouch) {
+            this->canvas->drawLine(mousePos, mousePos);
+            this->canvas->firstTouch = false;
+        }
+        else {
+            this->canvas->drawLine(this->prevMousePos, mousePos);
+        }
         // this->printMouseInfo();
         this->prevMousePos = mousePos;
+    }
+    if (!this->mouse.leftPressed) {
+        this->canvas->firstTouch = true;
     }
     // glm::vec2 mousePoint(this->mouse.xpos, this->mouse.ypos);
     // this->canvas->interpolatePoints(mousePoint, this->prevMousePoint);

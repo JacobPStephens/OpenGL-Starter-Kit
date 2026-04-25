@@ -13,7 +13,6 @@ Canvas::Canvas() {
     glm::vec2 point2(500, 249);
     glm::vec2 point3(0, 500);
     glm::vec2 point4(900, 465);
-    // drawShallowLine(point1, point2);
     drawShallowLine(point3, point4);
 }
 
