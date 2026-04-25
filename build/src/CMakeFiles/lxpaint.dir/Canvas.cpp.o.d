@@ -350,10 +350,12 @@ src/CMakeFiles/lxpaint.dir/Canvas.cpp.o: \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/integer.hpp \
  /home/jacob/proppa/source/lxpaint/external/glm/glm/detail/func_integer.inl \
  /home/jacob/proppa/source/lxpaint/src/../util.h \
- /home/jacob/proppa/source/lxpaint/src/Object.h \
- /home/jacob/proppa/source/lxpaint/external/glad/include/glad/glad.h \
- /home/jacob/proppa/source/lxpaint/external/glad/include/KHR/khrplatform.h \
  /home/jacob/proppa/source/lxpaint/src/ResourceManager.h \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/bits/stl_map.h \
- /usr/include/c++/13/bits/stl_multimap.h
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /home/jacob/proppa/source/lxpaint/external/glad/include/glad/glad.h \
+ /home/jacob/proppa/source/lxpaint/external/glad/include/KHR/khrplatform.h \
+ /home/jacob/proppa/source/lxpaint/src/Object.h \
+ /home/jacob/proppa/source/lxpaint/src/Pixel.h \
+ /home/jacob/proppa/source/lxpaint/src/PointsUtil.h

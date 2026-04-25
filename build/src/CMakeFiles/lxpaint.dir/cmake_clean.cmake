@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lxpaint.dir/Canvas.cpp.o.d"
   "CMakeFiles/lxpaint.dir/Object.cpp.o"
   "CMakeFiles/lxpaint.dir/Object.cpp.o.d"
+  "CMakeFiles/lxpaint.dir/PointsUtil.cpp.o"
+  "CMakeFiles/lxpaint.dir/PointsUtil.cpp.o.d"
   "CMakeFiles/lxpaint.dir/Renderer.cpp.o"
   "CMakeFiles/lxpaint.dir/Renderer.cpp.o.d"
   "CMakeFiles/lxpaint.dir/ResourceManager.cpp.o"

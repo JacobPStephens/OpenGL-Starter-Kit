@@ -6,6 +6,7 @@ lxpaint: \
   CMakeFiles/lxpaint.dir/App.cpp.o \
   CMakeFiles/lxpaint.dir/Canvas.cpp.o \
   CMakeFiles/lxpaint.dir/Object.cpp.o \
+  CMakeFiles/lxpaint.dir/PointsUtil.cpp.o \
   CMakeFiles/lxpaint.dir/Renderer.cpp.o \
   CMakeFiles/lxpaint.dir/ResourceManager.cpp.o \
   CMakeFiles/lxpaint.dir/Shader.cpp.o \
@@ -56,6 +57,8 @@ CMakeFiles/lxpaint.dir/App.cpp.o:
 CMakeFiles/lxpaint.dir/Canvas.cpp.o:
 
 CMakeFiles/lxpaint.dir/Object.cpp.o:
+
+CMakeFiles/lxpaint.dir/PointsUtil.cpp.o:
 
 CMakeFiles/lxpaint.dir/Renderer.cpp.o:
 

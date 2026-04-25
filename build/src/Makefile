@@ -247,6 +247,30 @@ Object.cpp.s:
 	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lxpaint.dir/build.make src/CMakeFiles/lxpaint.dir/Object.cpp.s
 .PHONY : Object.cpp.s
 
+PointsUtil.o: PointsUtil.cpp.o
+.PHONY : PointsUtil.o
+
+# target to build an object file
+PointsUtil.cpp.o:
+	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lxpaint.dir/build.make src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o
+.PHONY : PointsUtil.cpp.o
+
+PointsUtil.i: PointsUtil.cpp.i
+.PHONY : PointsUtil.i
+
+# target to preprocess a source file
+PointsUtil.cpp.i:
+	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lxpaint.dir/build.make src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.i
+.PHONY : PointsUtil.cpp.i
+
+PointsUtil.s: PointsUtil.cpp.s
+.PHONY : PointsUtil.s
+
+# target to generate assembly for a file
+PointsUtil.cpp.s:
+	cd /home/jacob/proppa/source/lxpaint/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/lxpaint.dir/build.make src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.s
+.PHONY : PointsUtil.cpp.s
+
 Renderer.o: Renderer.cpp.o
 .PHONY : Renderer.o
 
@@ -413,6 +437,9 @@ help:
 	@echo "... Object.o"
 	@echo "... Object.i"
 	@echo "... Object.s"
+	@echo "... PointsUtil.o"
+	@echo "... PointsUtil.i"
+	@echo "... PointsUtil.s"
 	@echo "... Renderer.o"
 	@echo "... Renderer.i"
 	@echo "... Renderer.s"

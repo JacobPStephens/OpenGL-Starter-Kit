@@ -5,6 +5,7 @@ target_sources(lxpaint
         ./App.cpp
         ./Canvas.cpp
         ./Object.cpp
+        ./PointsUtil.cpp
         ./Renderer.cpp
         ./ResourceManager.cpp
         ./Shader.cpp

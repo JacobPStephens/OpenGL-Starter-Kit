@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jacob/proppa/source/lxpaint/src/App.cpp" "src/CMakeFiles/lxpaint.dir/App.cpp.o" "gcc" "src/CMakeFiles/lxpaint.dir/App.cpp.o.d"
   "/home/jacob/proppa/source/lxpaint/src/Canvas.cpp" "src/CMakeFiles/lxpaint.dir/Canvas.cpp.o" "gcc" "src/CMakeFiles/lxpaint.dir/Canvas.cpp.o.d"
   "/home/jacob/proppa/source/lxpaint/src/Object.cpp" "src/CMakeFiles/lxpaint.dir/Object.cpp.o" "gcc" "src/CMakeFiles/lxpaint.dir/Object.cpp.o.d"
+  "/home/jacob/proppa/source/lxpaint/src/PointsUtil.cpp" "src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o" "gcc" "src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o.d"
   "/home/jacob/proppa/source/lxpaint/src/Renderer.cpp" "src/CMakeFiles/lxpaint.dir/Renderer.cpp.o" "gcc" "src/CMakeFiles/lxpaint.dir/Renderer.cpp.o.d"
   "/home/jacob/proppa/source/lxpaint/src/ResourceManager.cpp" "src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o" "gcc" "src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o.d"
   "/home/jacob/proppa/source/lxpaint/src/Shader.cpp" "src/CMakeFiles/lxpaint.dir/Shader.cpp.o" "gcc" "src/CMakeFiles/lxpaint.dir/Shader.cpp.o.d"

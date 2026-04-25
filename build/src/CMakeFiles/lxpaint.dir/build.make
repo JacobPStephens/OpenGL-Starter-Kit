@@ -128,10 +128,24 @@ src/CMakeFiles/lxpaint.dir/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lxpaint.dir/Object.cpp.s"
 	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/proppa/source/lxpaint/src/Object.cpp -o CMakeFiles/lxpaint.dir/Object.cpp.s
 
+src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o: src/CMakeFiles/lxpaint.dir/flags.make
+src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o: /home/jacob/proppa/source/lxpaint/src/PointsUtil.cpp
+src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o: src/CMakeFiles/lxpaint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o"
+	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o -MF CMakeFiles/lxpaint.dir/PointsUtil.cpp.o.d -o CMakeFiles/lxpaint.dir/PointsUtil.cpp.o -c /home/jacob/proppa/source/lxpaint/src/PointsUtil.cpp
+
+src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lxpaint.dir/PointsUtil.cpp.i"
+	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jacob/proppa/source/lxpaint/src/PointsUtil.cpp > CMakeFiles/lxpaint.dir/PointsUtil.cpp.i
+
+src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lxpaint.dir/PointsUtil.cpp.s"
+	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jacob/proppa/source/lxpaint/src/PointsUtil.cpp -o CMakeFiles/lxpaint.dir/PointsUtil.cpp.s
+
 src/CMakeFiles/lxpaint.dir/Renderer.cpp.o: src/CMakeFiles/lxpaint.dir/flags.make
 src/CMakeFiles/lxpaint.dir/Renderer.cpp.o: /home/jacob/proppa/source/lxpaint/src/Renderer.cpp
 src/CMakeFiles/lxpaint.dir/Renderer.cpp.o: src/CMakeFiles/lxpaint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/lxpaint.dir/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/lxpaint.dir/Renderer.cpp.o"
 	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lxpaint.dir/Renderer.cpp.o -MF CMakeFiles/lxpaint.dir/Renderer.cpp.o.d -o CMakeFiles/lxpaint.dir/Renderer.cpp.o -c /home/jacob/proppa/source/lxpaint/src/Renderer.cpp
 
 src/CMakeFiles/lxpaint.dir/Renderer.cpp.i: cmake_force
@@ -145,7 +159,7 @@ src/CMakeFiles/lxpaint.dir/Renderer.cpp.s: cmake_force
 src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o: src/CMakeFiles/lxpaint.dir/flags.make
 src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o: /home/jacob/proppa/source/lxpaint/src/ResourceManager.cpp
 src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o: src/CMakeFiles/lxpaint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o"
 	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o -MF CMakeFiles/lxpaint.dir/ResourceManager.cpp.o.d -o CMakeFiles/lxpaint.dir/ResourceManager.cpp.o -c /home/jacob/proppa/source/lxpaint/src/ResourceManager.cpp
 
 src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.i: cmake_force
@@ -159,7 +173,7 @@ src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.s: cmake_force
 src/CMakeFiles/lxpaint.dir/Shader.cpp.o: src/CMakeFiles/lxpaint.dir/flags.make
 src/CMakeFiles/lxpaint.dir/Shader.cpp.o: /home/jacob/proppa/source/lxpaint/src/Shader.cpp
 src/CMakeFiles/lxpaint.dir/Shader.cpp.o: src/CMakeFiles/lxpaint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/lxpaint.dir/Shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/lxpaint.dir/Shader.cpp.o"
 	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lxpaint.dir/Shader.cpp.o -MF CMakeFiles/lxpaint.dir/Shader.cpp.o.d -o CMakeFiles/lxpaint.dir/Shader.cpp.o -c /home/jacob/proppa/source/lxpaint/src/Shader.cpp
 
 src/CMakeFiles/lxpaint.dir/Shader.cpp.i: cmake_force
@@ -173,7 +187,7 @@ src/CMakeFiles/lxpaint.dir/Shader.cpp.s: cmake_force
 src/CMakeFiles/lxpaint.dir/Texture.cpp.o: src/CMakeFiles/lxpaint.dir/flags.make
 src/CMakeFiles/lxpaint.dir/Texture.cpp.o: /home/jacob/proppa/source/lxpaint/src/Texture.cpp
 src/CMakeFiles/lxpaint.dir/Texture.cpp.o: src/CMakeFiles/lxpaint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/lxpaint.dir/Texture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/lxpaint.dir/Texture.cpp.o"
 	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/lxpaint.dir/Texture.cpp.o -MF CMakeFiles/lxpaint.dir/Texture.cpp.o.d -o CMakeFiles/lxpaint.dir/Texture.cpp.o -c /home/jacob/proppa/source/lxpaint/src/Texture.cpp
 
 src/CMakeFiles/lxpaint.dir/Texture.cpp.i: cmake_force
@@ -187,7 +201,7 @@ src/CMakeFiles/lxpaint.dir/Texture.cpp.s: cmake_force
 src/CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o: src/CMakeFiles/lxpaint.dir/flags.make
 src/CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o: /home/jacob/proppa/source/lxpaint/external/glad/src/glad.c
 src/CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o: src/CMakeFiles/lxpaint.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o"
 	cd /home/jacob/proppa/source/lxpaint/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o -MF CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o.d -o CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.o -c /home/jacob/proppa/source/lxpaint/external/glad/src/glad.c
 
 src/CMakeFiles/lxpaint.dir/__/external/glad/src/glad.c.i: cmake_force
@@ -204,6 +218,7 @@ lxpaint_OBJECTS = \
 "CMakeFiles/lxpaint.dir/App.cpp.o" \
 "CMakeFiles/lxpaint.dir/Canvas.cpp.o" \
 "CMakeFiles/lxpaint.dir/Object.cpp.o" \
+"CMakeFiles/lxpaint.dir/PointsUtil.cpp.o" \
 "CMakeFiles/lxpaint.dir/Renderer.cpp.o" \
 "CMakeFiles/lxpaint.dir/ResourceManager.cpp.o" \
 "CMakeFiles/lxpaint.dir/Shader.cpp.o" \
@@ -217,6 +232,7 @@ src/lxpaint: src/CMakeFiles/lxpaint.dir/main.cpp.o
 src/lxpaint: src/CMakeFiles/lxpaint.dir/App.cpp.o
 src/lxpaint: src/CMakeFiles/lxpaint.dir/Canvas.cpp.o
 src/lxpaint: src/CMakeFiles/lxpaint.dir/Object.cpp.o
+src/lxpaint: src/CMakeFiles/lxpaint.dir/PointsUtil.cpp.o
 src/lxpaint: src/CMakeFiles/lxpaint.dir/Renderer.cpp.o
 src/lxpaint: src/CMakeFiles/lxpaint.dir/ResourceManager.cpp.o
 src/lxpaint: src/CMakeFiles/lxpaint.dir/Shader.cpp.o
@@ -229,7 +245,7 @@ src/lxpaint: external/glfw/src/libglfw3.a
 src/lxpaint: /usr/lib/x86_64-linux-gnu/librt.a
 src/lxpaint: /usr/lib/x86_64-linux-gnu/libm.so
 src/lxpaint: src/CMakeFiles/lxpaint.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable lxpaint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jacob/proppa/source/lxpaint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable lxpaint"
 	cd /home/jacob/proppa/source/lxpaint/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lxpaint.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

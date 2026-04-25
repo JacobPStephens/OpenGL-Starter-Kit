@@ -3,6 +3,7 @@
 #include "ResourceManager.h"
 #include "Renderer.h"
 #include "Object.h"
+#include "Pixel.h"
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -23,7 +24,6 @@ void App::initialize() {
     this->canvas = new Canvas();
     this->prevMousePos = glm::ivec2(0);
 
-
 }
 
 void App::createDemoObject() {
@@ -41,15 +41,17 @@ void App::setupShaders() {
 }
 
 void App::update(float dt) {
-    
+    // printf("update\n"); 
     if (this->mouse.leftPressed) {
         glm::ivec2 mousePos(this->mouse.xpos, this->mouse.ypos);
         this->canvas->drawLine(this->prevMousePos, mousePos);
+        // Object* obj = this->canvas->createPixelObject(mousePos);
+        // obj->color = glm::vec4(1.0f);
+        // this->printMouseInfo();
         this->prevMousePos = mousePos;
     }
     // glm::vec2 mousePoint(this->mouse.xpos, this->mouse.ypos);
     // this->canvas->interpolatePoints(mousePoint, this->prevMousePoint);
-    // // this->printMouseInfo();
     // this->prevMousePoint = mousePoint;
 
     // if (this->mouse.rightPressed) {
@@ -62,19 +64,36 @@ void App::update(float dt) {
 
 void App::render() {
 
-    renderCanvas();
-    //this->demoObject->draw(*this->renderer);
+    renderPixelGrid();
+    // this->demoObject->draw(*this->renderer);
 
 }
-void App::renderCanvas() {
-
-    for (int i = 0; i < this->canvas->pixelObjects.size(); i++) {
-        for (int j = 0; j < this->canvas->pixelObjects[i].size(); j++) {
+void App::renderPixelGrid() {
+    for (int i = 0; i < this->canvas->pixelGrid.size(); i++) {
+        for (int j = 0; j < this->canvas->pixelGrid[i].size(); j++) {
             if (this->canvas->canvas[i][j] != 0) {
-                this->canvas->pixelObjects[i][j]->draw(*this->renderer);
+                this->canvas->pixelGrid[i][j]->draw(*this->renderer);
             }
         }
     }
+            // Pixel* px = this->canvas->pixelGrid[i][j];
+            // if (px->object == nullptr) {
+            //     continue;
+            // }
+            // px->object->draw(*this->renderer);
+            // if (px == nullptr) {
+            //     printf("px is nullptr\n");
+            // }
+            // else {
+            //     printf("px is not nullptr\n");
+            // }
+            // if (px->object == nullptr) {
+            //     // px->object->draw(*this->renderer);
+            //     printf("px object is nullptr\n");
+            // }
+            // else {
+            //     printf("px object is not nullptr\n");
+            // }
 
 }
 

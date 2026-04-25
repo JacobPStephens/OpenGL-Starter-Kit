@@ -18,7 +18,7 @@ class App {
 
         void update(float dt);
         void render();
-        void renderCanvas();
+        void renderPixelGrid();
         void processInput();
         void printMouseInfo();
 
